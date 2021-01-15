@@ -6,11 +6,8 @@ function cargoContenidoStreaming() {
    $.ajax({
       url: "js/api.json",
       dataType: "json",
-      secure: true,
-      headers: {
-          'Access-Control-Allow-Origin': '*',
-      },
       success: function(contenidoJSON) {
+         localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
          $.each(contenidoJSON, function(i) {
             if(contenidoJSON[i].categoria == "Serie") {
                SerieOpelicula = `<p class="yellow-text">TEMPORADAS: <span class="white-text">${contenidoJSON[i].temporadas}</span></p>`
@@ -54,12 +51,15 @@ setTimeout(() => {
 }, 2000)
 
 function verDetalle(i) {
+   if (contenidoJSON.length == 0)
+      contenidoJSON = JSON.parse(localStorage.contenidoJSON)
    let detalleJSON = contenidoJSON.find(item => item.id == i)
-      if (detalleJSON != null) {
+      if (detalleJSON != undefined) {
          localStorage.setItem("contenido", JSON.stringify(detalleJSON))
          location.href = "detail.html"
          console.log(detalleJSON)
       } else {
          console.error("No se encontró el elemento: " + i)
+         M.toast({html: "Contenido temporalmente no disponible.", classes: "red darken-3 white-text"})
       }
 }
