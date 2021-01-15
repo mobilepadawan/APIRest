@@ -4,11 +4,14 @@ It's the same to a video streaming platform, limited to the trailer's view. All 
 
 ## FRAMEWORKS
 I am using two simple frameworks:
+###FRAMEWORK CSS
+I am integrating Materialize CSS for the UI. I use it locally.
 
+###FRAMEWORK JS
+I am using JQuery 3.5.1 for the simple animations on the HTML documents and AJAX() to get the movies and series information.
 
-* **FRAMEWORK CSS:** I am integrating Materialize CSS for the UI. I use it locally.
-* **FRAMEWORK JS:** I am using JQuery 3.5.1 for the simple animations on the HTML documents and AJAX() to get the movies and series information.
-* **MOVIES & SERIES DB:** I taken from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every information charged on the JSON file was made for me. Any things was invented, another things are real and maybe taken from Wikipedia, IMDB or similar site.
+###MOVIES & SERIES DB
+I taken from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every information charged on the JSON file was made for me. Any things was invented, another things are real and maybe taken from Wikipedia, IMDB or similar site.
 
 ## SCREENSHOTS
 These are some screenshots of the Web App, showing the different screens and support responsiveness behaivor. 
