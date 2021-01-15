@@ -54,8 +54,6 @@ These are some screenshots of the Web App, showing the different screens and sup
 
 ![Coderbook responsive](https://github.com/mobilepadawan/APIRest/blob/master/API%20Rest%20-%20coderbook/images/screenshots/coderbook-responsive.jpg)
 
-![Content Responsive](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/horizontal_navigation.png)
-
 - - - -
 ## Credits and Copyrights
 All the information that I'm using in this project is Copyrighted by its own authors and owners. I just took this images and/or information for academic teaching purposes. I don't want to make money with this and I don't want to pirate anything.
