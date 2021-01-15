@@ -4,13 +4,13 @@ It's the same to a video streaming platform, limited to the trailer's view. All 
 
 ## FRAMEWORKS
 I am using two simple frameworks:
-### FRAMEWORK CSS
+### CSS
 I am integrating Materialize CSS for the UI. I use it locally.
 
-### FRAMEWORK JS
+### JS
 I am using JQuery 3.5.1 for the simple animations on the HTML documents and AJAX() to get the movies and series information.
 
-### MOVIES & SERIES DB
+### DB for MOVIES & SERIES
 I taken from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every information charged on the JSON file was made for me. Any things was invented, another things are real and maybe taken from Wikipedia, IMDB or similar site.
 
 ## SCREENSHOTS
@@ -24,5 +24,7 @@ These are some screenshots of the Web App, showing the different screens and sup
 
 ![Content Responsive](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/horizontal_navigation.png)
 
-## ATTENTION - CREDITS AND COPYRIGHT
-All the information shared in this project is Copyrighted by its own authors and owners. I just took this images and/or information for academic teaching purposes. I don't want to make money with this and I don't want to pirate anything.
+## Credits and Copyrights
+All the information that I'm using in this project is Copyrighted by its own authors and owners. I just took this images and/or information for academic teaching purposes. I don't want to make money with this and I don't want to pirate anything.
+
+I always promote listen to the music and watching movies and series using the legal platforms.
