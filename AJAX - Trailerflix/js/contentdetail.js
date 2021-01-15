@@ -7,7 +7,7 @@ $(document).ready(function() {
       informacionDeContenido = JSON.parse(localStorage.contenido)
       HTMLTable = `<div class="row center">
                      <div class="col s12 m5 l4 center-align">
-                     <img src="${informacionDeContenido.poster}" width="100%">
+                        <img src="${informacionDeContenido.poster}" width="200px">
                      </div>
                      <div class="col s12 m7 l8">
                      <table>
@@ -55,5 +55,10 @@ $(window).ready(function() {
       $('#contenido').slideDown("slow", function() {
          $('#trailer').fadeIn()
       })
+   })
+
+   $("#retornar").click(function() {
+      location.target = "_self"
+      location.href = "index.html"
    })
 })

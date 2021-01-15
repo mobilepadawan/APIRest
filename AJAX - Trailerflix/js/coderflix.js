@@ -1,13 +1,22 @@
-let HTMLCard = "";
+let HTMLCard = ""
+let SerieOpelicula = ""
 let contenidoJSON = []
 
 function cargoContenidoStreaming() {
    $.ajax({
       url: "js/api.json",
       dataType: "json",
-      success: function(response) {
-         contenidoJSON = response
+      secure: true,
+      headers: {
+          'Access-Control-Allow-Origin': '*',
+      },
+      success: function(contenidoJSON) {
          $.each(contenidoJSON, function(i) {
+            if(contenidoJSON[i].categoria == "Serie") {
+               SerieOpelicula = `<p class="yellow-text">TEMPORADAS: <span class="white-text">${contenidoJSON[i].temporadas}</span></p>`
+            } else {
+               SerieOpelicula = `<p class="yellow-text">DURACIÓN: <span class="white-text">${contenidoJSON[i].duracion}</span></p>`
+            }
             HTMLCard += `<div class="col s12 m6 l3">
                            <div class="card z-depth-2">
                            <div class="card-image">
@@ -16,7 +25,7 @@ function cargoContenidoStreaming() {
                            </div>
                            <div class="card-content black">
                               <p class="yellow-text">GÉNERO: <span class="white-text">${contenidoJSON[i].genero}</span></p>
-                              <p class="yellow-text">TEMPORADAS: <span class="white-text">${contenidoJSON[i].temporadas}</span></p>
+                              ${SerieOpelicula}
                            </div>
                            </div>
                         </div>`
@@ -26,7 +35,6 @@ function cargoContenidoStreaming() {
       error: function() {
          console.error("Ocurrió un error... :(")
          HTMLCard = `<div class="center white-text"> 
-                        <br><br> 
                         <br><br> 
                         <h4>El contenido parece no estar disponible. Intente nuevamente en unos minutos.</h4> 
                         <br><br> 
