@@ -1,6 +1,6 @@
 # TRAILERFLIX
 This project was born as an **Ajax Project**, emulating a video streaming platform.
-It's the same to a video streaming platform, limited to the trailer's view. All the trailers available are taken from Youtube (_most of them coming from the official channels_).
+It's the same to a video streaming platform, limited to the trailer's view. All the trailers available here are dinamically linked from Youtube into the JSON file (_most of them are coming from the official YT channels_).
 
 - - - -
 ## FRAMEWORKS
@@ -10,7 +10,7 @@ I am integrating Materialize CSS for the UI. I use it locally.
 ### JS
 I am using JQuery 3.5.1 for the simple animations on the HTML documents and AJAX() to get the movies and series information.
 
-- - - -
+
 ## DB for MOVIES & SERIES
 I take this information from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every text information on the JSON file was written for me. Any things are invented, another things are real and maybe a couple of them were taken from Wikipedia, IMDB or a similar website.
 
