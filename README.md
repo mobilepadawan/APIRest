@@ -6,12 +6,11 @@ It's the same to a video streaming platform, limited to the trailer's view. All 
 I am using two simple frameworks:
 ### CSS
 I am integrating Materialize CSS for the UI. I use it locally.
-
 ### JS
 I am using JQuery 3.5.1 for the simple animations on the HTML documents and AJAX() to get the movies and series information.
 
-### DB for MOVIES & SERIES
-I taken from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every information charged on the JSON file was made for me. Any things was invented, another things are real and maybe taken from Wikipedia, IMDB or similar site.
+## DB for MOVIES & SERIES
+I take this information from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every text information on the JSON file was written for me. Any things are invented, another things are real and maybe a couple of them were taken from Wikipedia, IMDB or a similar website.
 
 ## SCREENSHOTS
 These are some screenshots of the Web App, showing the different screens and support responsiveness behaivor. 
