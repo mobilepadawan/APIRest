@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>CODERFLIX</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com"> 
+      <link rel="stylesheet" href="css/materialize.min.css">
+      <link rel="stylesheet" href="css/estilos.css">
+      <script src="js/materialize.min.js"></script>
+      <script src="js/JQuery-3.5.1.min.js"></script>
+      <script defer src="js/coderflix.js"></script>
+  </head>
+  <body class="black">
+    <div class="center">
+        <h1 class="red-text"><strong>CODERFLIX</strong></h1>
+    </div>
+    <div id="cargando" class="center">
+        <br><br>
+          <i class="large material-icons red-text">movie</i>
+        <br><br>
+        <br><br>
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div id="contenido" class="row center" style="display: none;">
+      <!-- The content goes here and it will loaded from the API information-->
+      </div>
+    </div>
+  </body>
+</html>
