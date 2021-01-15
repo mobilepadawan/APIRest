@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.separate-side-left {
+    margin-left: 20px;
+}
+
+.separate-side-right {
+    margin-right: 20px;
+}
+
+.lightgrey-text {
+    color: lightgrey;
+}
+
+.wide-80 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    align-content: center;
+}

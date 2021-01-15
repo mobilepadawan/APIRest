@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>coderbook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/materialize.min.js"></script>
+    <script src="js/JQuery-3.5.1.min.js"></script>
+    <script defer src="js/coderbook.js"></script>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper blue darken-3">
+          <a href="#!" class="brand-logo left separate-side-left white-text">coderbook</a>
+          <ul class="right">
+            <li><a href="#" class="btn-flat waves-effect waves-light" id="btnbuscar">
+              <i class="material-icons white-text center">search</i>
+            </a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="cargando" class="lightgrey-text wide-80">
+        <br><br>
+        <i class="large material-icons">people</i>
+        <br><br>
+        <h4>Inicie una búsqueda, pulsando el botón superior derecho</h4>
+        <p>La misma se ejecutará sobre la API REST de <strong>{randomusers.me}</strong>. El resultado obtenido es generado de forma random, por lo tanto, solo se puede utilizar para propósito de aprendizaje.</p>
+    </div>
+    <div id="contenido" class="wide-80" style="display: none;">
+      <table id="tabladeresultado" class="responsive-table">
+
+      </table>
+    <!-- Todo el contenido se carga desde la API -->
+    </div>
+  </body>
+</html>
