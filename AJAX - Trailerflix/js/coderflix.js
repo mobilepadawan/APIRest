@@ -45,9 +45,9 @@ function cargoContenidoStreaming() {
 
 setTimeout(() => {
    cargoContenidoStreaming()
-      $('#contenido').fadeIn("fast", function() {
-         $('#cargando').fadeOut(200)
-      })
+   $('#contenido').fadeIn("fast", function() {
+      $('#cargando').fadeOut(200)
+   })
 }, 2000)
 
 function verDetalle(i) {
