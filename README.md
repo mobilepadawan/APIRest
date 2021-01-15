@@ -21,7 +21,7 @@ I take this information from a local JSON file. The movie and series cover was t
 
 - - - -
 ### SCREENSHOTS
-These are some screenshots of the Web App, showing the different screens and support responsiveness behaivor. 
+These are some screenshots of this Web App, showing the different screens and the correct behavior for the mobile-first paradigm. 
 
 ![Content loading animation](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_loading.jpg)
 
@@ -46,7 +46,7 @@ I use JQuery 3.5.1 for  simple animations over the HTML document and AJAX() to r
 
 - - - -
 ### SCREENSHOTS
-These are some screenshots of the Web App, showing the different screens and support responsiveness behaivor. 
+Following the paradigm of Trailerflix App, Coderbook also behavior correct on both ecosystems: mobile and web.
 
 ![Coderbook home page](https://github.com/mobilepadawan/APIRest/blob/master/API%20Rest%20-%20coderbook/images/screenshots/coderbook-home.jpg)
 
