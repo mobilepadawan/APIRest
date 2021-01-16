@@ -43,7 +43,7 @@ I use __$.AJAX()__ to get the data and __JQuery animations__.
 #### CSS
 I integrated __Materialize CSS__ for solving the __UI__. I use it locally.
 #### JS
-I use JQuery 3.5.1 to show a basic hide() and show() effects over different HTML sections after the query ends, and AJAX() to read the Rest API from randomuser.me and iterate over every item for load and show it as a search result on screen.
+I added JQuery 3.5.1 to show a basic hide() and show() effects over different HTML sections after the query ends, and AJAX() to read the Rest API from randomuser.me and iterate with every item to load and show it on screen as seen on any searching result.
 
 - - - -
 ### SCREENSHOTS
@@ -59,4 +59,4 @@ Following the paradigm of Trailerflix App, __Coderbook__ is also behavioring fin
 ## Credits and Copyrights
 All the information that I'm using in this project is Copyrighted by its own authors and owners. I just took this images and/or information for academic teaching purposes. I don't want to make money with this and I don't want to pirate anything.
 
-I always promote listen to the music and watching movies and series using the legal platforms.
+I always promote to listen to the music and to watch movies and series using the legal platforms.
