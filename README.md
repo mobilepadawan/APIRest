@@ -28,9 +28,9 @@ These are some screenshots of this Web App, showing the different screens and th
 
 ![Content navigation](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_navigation.jpg)
 
-![Content detail](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_detail.png)
+![Content detail](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_detail.jpg)
 
-![Content Responsive](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/horizontal_navigation.png)
+![Content Responsive](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/horizontal_navigation.jpg)
 
 - - - -
 
