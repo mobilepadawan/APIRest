@@ -5,19 +5,20 @@ I have two projects on this respository, both using AJAX() to query and show dat
 
 ## TRAILERFLIX
 This project was born as an **Ajax Project**, emulating a video streaming platform.
-It's the same to a video streaming platform, limited to the trailer's view. All the trailers available here are dinamically linked from Youtube into the JSON file (_most of them are coming from the official YT channels_).
+As seen in the common video streaming platformss, but limited to the trailer's watch __;)__.
+
+All the trailers available in the JSON file are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
 
 - - - -
 ### FRAMEWORKS
 I am using two simple frameworks:
 #### CSS
-I am integrating Materialize CSS for the UI. I use it locally.
+Materialize CSS is integrated for solving the UI. I use it locally.
 #### JS
-I am using JQuery 3.5.1 for the simple animations on the HTML documents and AJAX() to get the movies and series information.
-
+I also added __JQuery 3.5.1__ for basic animations on the HTML documents and __AJAX()__ to get and show on screen the movies and series information.
 
 ### DB for MOVIES & SERIES
-I take this information from a local JSON file. The movie and series cover was taken from the Internet, sizing normalized by me, and every text information on the JSON file was written for me. Any things are invented, another things are real and maybe a couple of them were taken from Wikipedia, IMDB or a similar website.
+I am taking the information of movies and series from a local JSON file. The cover images were taken from the Internet, sizing normalized by me, and every text information on the JSON file was written for me. Any things are invented, another things are real and maybe, a couple of them, were taken from Wikipedia, IMDB or a similar website.
 
 - - - -
 ### SCREENSHOTS
@@ -34,19 +35,19 @@ These are some screenshots of this Web App, showing the different screens and th
 - - - -
 
 ## CODERBOOK
-This project uses the rendomuser.me API to get a list of users emulating the common Social Networks.
-I use $.AJAX() to get the data and JQuery animations to show a basic hide and show sections after the query ends.
+This project is using the __rendomuser.me API__ to get a list of users, emulating the typical Social Networks user search engine.
+I use __$.AJAX()__ to get the data and __JQuery animations__.
 
 - - - -
 ### FRAMEWORKS
 #### CSS
-I integrate Materialize CSS for the UI. I use it locally.
+I integrated __Materialize CSS__ for solving the __UI__. I use it locally.
 #### JS
-I use JQuery 3.5.1 for  simple animations over the HTML document and AJAX() to read the Rest API from randomuser.me
+I use JQuery 3.5.1 to show a basic hide() and show() effects over different HTML sections after the query ends, and AJAX() to read the Rest API from randomuser.me and iterate over every item for load and show it as a search result on screen.
 
 - - - -
 ### SCREENSHOTS
-Following the paradigm of Trailerflix App, Coderbook also behavior correct on both ecosystems: mobile and web.
+Following the paradigm of Trailerflix App, __Coderbook__ is also behavioring fine on both ecosystems: __mobile__ and __web__.
 
 ![Coderbook home page](https://github.com/mobilepadawan/APIRest/blob/master/API%20Rest%20-%20coderbook/images/screenshots/coderbook-home.jpg)
 
