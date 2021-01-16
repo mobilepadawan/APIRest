@@ -1,13 +1,13 @@
 # AJAX and API REST PROJECTS
 I have two projects on this respository, both using AJAX() to query and show data on screen.
 * Ajax - TrailerFlix (_a kind of video and series streaming platform_)
-* coderbook (_a king of social network who get a query result._)
+* coderbook (_a kind of social network search engine._)
 
 ## TRAILERFLIX
 This project was born as an **Ajax Project**, emulating a video streaming platform.
 As seen in the common video streaming platformss, but limited to the trailer's watch __;)__.
 
-All the trailers available in the JSON file are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
+All the trailers available are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
 
 - - - -
 ### FRAMEWORKS
@@ -35,7 +35,7 @@ These are some screenshots of this Web App, showing the different screens and th
 - - - -
 
 ## CODERBOOK
-This project is using the __rendomuser.me API__ to get a list of users, emulating the typical Social Networks user search engine.
+This project is using the __randomuser.me API__ to get a list of users, emulating the typical Social Networks user search engine.
 I use __$.AJAX()__ to get the data and __JQuery animations__.
 
 - - - -
