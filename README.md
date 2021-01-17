@@ -5,7 +5,7 @@ I have two projects on this respository, both using AJAX() to query and show dat
 
 ## TRAILERFLIX
 This project was born as an **Ajax Project**, emulating a video streaming platform.
-As seen in the common video streaming platformss, but limited to the trailer's watch __;)__.
+As seen in the common video streaming platforms, but limited to trailer's watching __;)__.
 
 All the trailers available are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
 
@@ -18,7 +18,7 @@ Materialize CSS is integrated for solving the UI. I use it locally.
 I also added __JQuery 3.5.1__ for basic animations on the HTML documents and __AJAX()__ to get and show on screen the movies and series information.
 
 ### DB for MOVIES & SERIES
-I am taking the information of movies and series from a local JSON file. The cover images were taken from the Internet, sizing normalized by me, and every text information on the JSON file was written for me. Any things are invented, another things are real and maybe, a couple of them, were taken from Wikipedia, IMDB or a similar website.
+I am taking the information of movies and series from a local JSON file. The cover images were taken from the Internet. The image sizing was normalized by me, and every block of text information on the JSON file was written for me. Some things are invented. Other things are real and maybe, a couple of them, were taken from Wikipedia, IMDB or a similar website.
 
 - - - -
 ### SCREENSHOTS
