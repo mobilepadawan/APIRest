@@ -1,0 +1,41 @@
+{
+    "short_name": "Trailerflix",
+    "name": "Trailerflix: Another video streaming App, but Trailer's only",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/index.html",
+    "icons": [
+        {
+        "src": "images/trailerflix-64.png",
+        "type": "image/png",
+        "sizes": "64x64",
+        "purpose": "maskable"
+        },
+        {
+        "src": "images/trailerflix-96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "maskable"
+        },
+        {
+        "src": "images/trailerflix-128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "maskable"
+        },
+        {
+        "src": "images/trailerflix-144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+        },
+        {
+        "src": "images/trailerflix-512.png",
+        "type":"image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+        }
+    ]
+}

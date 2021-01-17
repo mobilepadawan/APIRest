@@ -17,7 +17,7 @@ function cargoContenidoStreaming() {
             HTMLCard += `<div class="col s12 m6 l3">
                            <div class="card z-depth-2">
                            <div class="card-image">
-                              <img src="${contenidoJSON[i].poster}">
+                              <img src="${contenidoJSON[i].poster}" alt="${contenidoJSON[i].titulo}" id="trailerflix-"${contenidoJSON[i].id} max-width="100px">
                               <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons" onclick="verDetalle(${contenidoJSON[i].id})">search</i></a>
                            </div>
                            <div class="card-content black">
