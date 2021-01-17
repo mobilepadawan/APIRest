@@ -1,6 +1,6 @@
 {
     "short_name": "Trailerflix",
-    "name": "Trailerflix: Another video streaming App, but Trailer's only",
+    "name": "Trailerflix: Another video streaming WebApp, but Trailer's only",
     "background_color": "#000000",
     "theme_color": "#000000",
     "display": "standalone",
