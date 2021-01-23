@@ -7,7 +7,7 @@ function cargoContenidoStreaming() {
    $.ajax({
       type: 'GET',
       crossDomain: true,
-      url: 'https://randomuser.me/api/?results=25',
+      url: 'https://randomuser.me/api/?results=5',
       dataType: 'json',
       success: function(data) {
          console.log(JSON.stringify(data))
