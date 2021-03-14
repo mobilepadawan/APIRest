@@ -5,7 +5,7 @@ function cargoContenidoStreaming() {
       url: "js/api.json",
       dataType: "json",
       success: function(contenidoJSON) {
-         localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
+         //localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
          $.each(contenidoJSON, function(i) {
             $("#contenido").append(buildCard(contenidoJSON[i]))
          })
