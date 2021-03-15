@@ -5,7 +5,7 @@ function cargoContenidoStreaming() {
       url: "js/api.json",
       dataType: "json",
       success: function(contenidoJSON) {
-         //localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
+         localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
          $.each(contenidoJSON, function(i) {
             $("#contenido").append(buildCard(contenidoJSON[i]))
          })
@@ -69,4 +69,30 @@ function verDetalle(i) {
          console.error("No se encontró el elemento: " + i)
          M.toast({html: "Contenido temporalmente no disponible.", classes: "red darken-3 white-text"})
       }
+}
+
+function buscarToggle() {
+   $("#divBuscar").slideToggle()
+}
+
+$("#txtBuscar").on("keypress", function(e) {
+   if (e.keyCode === 13) {
+      buscarContenido($("#txtBuscar").val())
+   }
+})
+
+function buscarContenido(param) {
+   if (localStorage.contenidoJSON != undefined) {
+      console.info("Puedo buscar contenido local.")
+      contenidoJSON = JSON.parse(localStorage.contenidoJSON)
+      //debugger
+      let resultado = contenidoJSON.filter(c => c.genero.includes(param))
+          if (resultado.length == 0) {
+            M.toast({html: "<p>No se encontró contenido asociado :(</p>", classes: "red darken3 white-text"})
+          } else {
+            console.table(resultado)
+          }
+   } else {
+      console.error("Intente de nuevo más tarde, o habilite el caché local.")
+   }
 }

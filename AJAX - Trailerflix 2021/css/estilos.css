@@ -16,3 +16,7 @@ h1 {
     font-stretch: wider;
 }
 
+.input-field .prefix .active {
+    border-bottom: 1px solid rgb(156, 77, 77) !important;
+    box-shadow: 0 1px 0 0 #000;
+  }
