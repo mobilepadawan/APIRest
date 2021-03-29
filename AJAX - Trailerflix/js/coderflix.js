@@ -8,6 +8,7 @@ function cargoContenidoStreaming() {
       dataType: "json",
       success: function(contenidoJSON) {
          localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
+         console.table(contenidoJSON)
          $.each(contenidoJSON, function(i) {
             if(contenidoJSON[i].categoria == "Serie") {
                SerieOpelicula = `<p class="yellow-text">TEMPORADAS: <span class="white-text">${contenidoJSON[i].temporadas}</span></p>`
@@ -54,6 +55,7 @@ function verDetalle(i) {
    if (contenidoJSON.length == 0)
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
    let detalleJSON = contenidoJSON.find(item => item.id == i)
+      console.table(detalleJSON)
       if (detalleJSON != undefined) {
          localStorage.setItem("contenido", JSON.stringify(detalleJSON))
          location.href = "detail.html"
