@@ -1,10 +1,10 @@
 let HTMLTable = ""
 let HTMLtrailer = ""
 let informacionDeContenido = ""
-
 $(document).ready(function() {
    if (localStorage.contenido != undefined) {
       informacionDeContenido = JSON.parse(localStorage.contenido)
+      console.table(informacionDeContenido)
       HTMLTable = `<div class="row center">
                      <div class="col s12 m5 l4 center-align">
                         <img src="${informacionDeContenido.poster}" width="200px">
