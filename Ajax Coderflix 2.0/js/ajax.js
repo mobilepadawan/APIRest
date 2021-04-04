@@ -27,13 +27,13 @@ const cargoCard = (film) => {
             if (film.temporadas == "N/A")
                 movieOrSerie = `<p class="yellow-text">DURACIÓN: <span class="white-text">${film.temporadas}</span></p>`
             let card = `<div class="col s12 m6 l3">
-                            <div class="card z-depth-2">
+                            <div class="card">
                                 <div class="card-image">
                                 <img src="${film.poster}">
                                 <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">search</i></a>
                                 </div>
                                 <div class="card-content black">
-                                <p class="yellow-text">GÉNERO: <span class="white-text">${film.genero}</span></p>
+                                <p class="yellow-text">${film.genero}</p>
                                 ${movieOrSerie}
                                 </div>
                             </div>

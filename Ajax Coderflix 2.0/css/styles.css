@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons&family=Open+Sans+Condensed:wght@300;700&family=Roboto:wght@300;700&display=swap');
 
-body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: black;
-}
-
 h1, h2, h3 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -23,4 +16,15 @@ p, span, input {
 
 .blanco {
     color: white !important;
+}
+
+.black-dark-grey {
+    color: #1c0d02 !important;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #0a0a0a;
 }
