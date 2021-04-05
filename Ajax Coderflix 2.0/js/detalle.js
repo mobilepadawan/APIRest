@@ -1,6 +1,5 @@
 let HTMLTable = ""
 let HTMLtrailer = ""
-let informacionDeContenido = ""
 
 $(()=> {
    $.getJSON("js/coderflix.json", function(response, status) {
