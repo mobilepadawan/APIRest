@@ -5,6 +5,10 @@ $(()=> {
    $.getJSON("js/coderflix.json", function(response, status) {
       if (status === "success") {
          let contenido = response.find(c => c.id == localStorage.movie)
+         let movieOrSeries = `<td class="yellow-text">TEMPORADAS</td><td>${contenido.temporadas}</td>`
+            if (contenido.temporadas == "N/A") {
+               movieOrSeries = `<td class="yellow-text">DURACIÓN</td><td>${contenido.temporadas}</td>`
+            }
             HTMLTable = `<div class="row center">
                            <div class="col s12 m5 l4 center-align">
                               <img src="${contenido.poster}" width="200px">
@@ -29,8 +33,7 @@ $(()=> {
                                  <td>${contenido.resumen}</td>
                                  </tr>
                                  <tr>
-                                 <td class="yellow-text">TEMPORADAS</td>
-                                 <td>${contenido.temporadas}</td>
+                                 ${movieOrSeries}
                                  </tr>
                                  <tr>
                                  <td class="yellow-text">REPARTO</td>
