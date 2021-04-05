@@ -23,6 +23,7 @@ const contenidoError = `<div class="center red-text">
 
 const cargoCard = (film) => {
     if (film != undefined) {
+        let f = film.id
         let movieOrSerie = `<p class="yellow-text">TEMPORADAS: <span class="white-text">${film.temporadas}</span></p>`
             if (film.temporadas == "N/A")
                 movieOrSerie = `<p class="yellow-text">DURACIÓN: <span class="white-text">${film.temporadas}</span></p>`
@@ -30,7 +31,7 @@ const cargoCard = (film) => {
                             <div class="card">
                                 <div class="card-image">
                                 <img src="${film.poster}">
-                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">search</i></a>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons" onclick="verDetalle(${f})">search</i></a>
                                 </div>
                                 <div class="card-content black">
                                 <p class="yellow-text">${film.genero}</p>
@@ -39,5 +40,14 @@ const cargoCard = (film) => {
                             </div>
                         </div>`
                 return card
+    }
+}
+
+function verDetalle(f) {
+    debugger
+    if (f != undefined) {
+        localStorage.movie = f
+        location.target = "_self"
+        location.href = "detalle.html"
     }
 }
