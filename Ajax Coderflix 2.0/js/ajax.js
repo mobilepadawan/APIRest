@@ -1,6 +1,6 @@
 $(document).ready(()=> {
     $("#titulo").show("slow", ()=> {
-        $.getJSON("coderflix.json", function(response, status) {
+        $.getJSON("js/coderflix.json", function(response, status) {
             if (status === "success") {
                 let contenido = response
                     for (const film of contenido) {
@@ -44,7 +44,6 @@ const cargoCard = (film) => {
 }
 
 function verDetalle(f) {
-    debugger
     if (f != undefined) {
         localStorage.movie = f
         location.target = "_self"
