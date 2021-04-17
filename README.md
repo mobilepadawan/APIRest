@@ -57,6 +57,6 @@ Following the paradigm of Trailerflix App, __Coderbook__ is also behavioring fin
 
 - - - -
 ## Credits and Copyrights
-All the information that I'm using in this project is Copyrighted by their own authors and owners. I just took this images and/or information for academic teaching purposes. I don't want to make money with this and I don't want to pirate anything.
+All the information that I'm using in this project is Copyrighted by their own authors and owners. I just took this images and/or information for academic teaching purposes. I don't want to make money and to pirate anything.
 
-I always promote the legal use of streaming services. I did it since 2011.
+I promote the legal use of streaming services since always.
