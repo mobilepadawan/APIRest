@@ -8,7 +8,9 @@ This project was born as an **Ajax Project**, emulating a video streaming platfo
 As seen in the common video streaming platforms, but limited to trailer's watching __;)__.
 
 All the trailers available are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
-
+- - - -
+## TRAILERFLIX 2021 (update)
+This version includes an improvement into the JSON file. A field 'busqueda' was added to get a better and unique searching field. Also I added the searching field and the associated searching function. It works fine, since the shot one! <3
 - - - -
 ### FRAMEWORKS
 I am using two simple frameworks:
