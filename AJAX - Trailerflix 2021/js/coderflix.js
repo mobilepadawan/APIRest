@@ -82,6 +82,7 @@ $("#txtBuscar").on("keypress", function(e) {
 })
 
 function buscarContenido(param) {
+   debugger
    if (localStorage.contenidoJSON != undefined) {
       console.info("Puedo buscar contenido local.")
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
