@@ -84,15 +84,12 @@ $("#txtBuscar").on("keypress", function(e) {
 
 function buscarContenido(param) {
    if (localStorage.contenidoJSON != undefined) {
-      console.info("Puedo buscar contenido local.")
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
-      //debugger
       const resultado = contenidoJSON.filter(c => c.genero.includes(param))
             if (resultado.length == 0) {
                M.toast({html: "<p>No se encontró contenido asociado :(</p>", classes: "red darken3 white-text"})
             } else {
                console.table(resultado)
-               debugger
                $('#contenido').html("")
                leyendaResultados = `<p class="yellow-text">Se encontraron ${resultado.length} coincidencias.</p>`
                $('#contenido').append(leyendaResultados)
