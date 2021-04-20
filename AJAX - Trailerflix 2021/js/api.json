@@ -5,6 +5,7 @@
       "titulo": "The Mandalorian",
       "categoria": "Serie",
       "genero": "Sci-Fi, Fantasía, Suspenso",
+      "busqueda": "The Mandalorian, Sci-Fi, Fantasía, Suspenso, Pedro Pascal, Carl Weathers, Misty Rosas, Chris Bartlett, Rio Hackford, Giancarlo Esposito",
       "resumen": "Ambientada tras la caída del Imperio y antes de la aparición de la Primera Orden, la Serie sigue los pasos de un pistolero solitario en las aventuras que protagoniza en los confines de la galaxia, donde no alcanza la autoridad de la Nueva República.",
       "temporadas": 2,
       "reparto": "Pedro Pascal, Carl Weathers, Misty Rosas, Chris Bartlett, Rio Hackford, Giancarlo Esposito",
@@ -16,6 +17,7 @@
       "titulo": "The Umbrella Academy",
       "categoria": "Serie",
       "genero": "Sci-Fi, Fantasía, Drama",
+      "busqueda": "The Umbrella Academy, Sci-Fi, Fantasía, Drama, Tom Hopper, David Castañeda, Emmy Raver-Lampman, Robert Sheehan, Aidan Gallagher, Elliot Page",
       "resumen": "La muerte de su padre reúne a unos hermanos distanciados y con extraordinarios poderes que descubren impactantes secretos y una amenaza que se cierne sobre la humanidad.",
       "temporadas": 1,
       "reparto": "Tom Hopper, David Castañeda, Emmy Raver-Lampman, Robert Sheehan, Aidan Gallagher, Elliot Page"
@@ -26,6 +28,7 @@
       "titulo": "Gambito de Dama",
       "categoria": "Serie",
       "genero": "Drama, Ficción, Sucesos",
+      "busqueda": "Gambito de Dama, Drama, Ficción, Sucesos, Anya Taylor-Joy, Thomas Brodie-Sangster, Harry Melling, Moses Ingram, Chloe Pirrie, Janina Elkin",
       "resumen": "En los cincuenta, una joven de un orfanato descubre que tiene un increíble don para el ajedrez y recorre el arduo camino a la fama mientras lucha contra las adicciones.",
       "temporadas": 1,
       "reparto": "Anya Taylor-Joy, Thomas Brodie-Sangster, Harry Melling, Moses Ingram, Chloe Pirrie, Janina Elkin"
@@ -36,6 +39,7 @@
       "titulo": "Riverdale",
       "categoria": "Serie",
       "genero": "Drama, Misterio, Ficción",
+      "busqueda": "Riverdale, Drama, Misterio, Ficción, Lili Reinhart, Casey Cott, Camila Mendes, Marisol Nichols, Madelaine Petsch, Mädchen Amick",
       "resumen": "El paso a la edad adulta incluye sexo, romance, escuela y familia. Para Archie y sus amigos, también hay misterios oscuros.",
       "temporadas": 5,
       "reparto": "Lili Reinhart, Casey Cott, Camila Mendes, Marisol Nichols, Madelaine Petsch, Mädchen Amick"
@@ -46,6 +50,7 @@
       "titulo": "The Crown",
       "categoria": "Serie",
       "genero": "Drama, Hechos verídicos",
+      "busqueda": "The Crown, Drama, Hechos verídicos, Claire Fox, Olivia Colman, Matt Smith, Tobias Menzies, Vanesa Kirby, Helena Bonham Carter",
       "resumen": "Este drama narra las rivalidades políticas y el romance de la reina Isabel II, así como los sucesos que moldearon la segunda mitad del siglo XX.",
       "temporadas": 4,
       "reparto": "Claire Fox, Olivia Colman, Matt Smith, Tobias Menzies, Vanesa Kirby, Helena Bonham Carter"
@@ -56,6 +61,7 @@
       "titulo": "Enola Holmes",
       "categoria": "Película",
       "genero": "Ficción, Drama, Misterio",
+      "busqueda": "Enola Holmes, Ficción, Drama, Misterio, Millie Bobby Brown, Henry Cavill, Sam Claflin, Helena Bonham Carter, Louis Partridge, Adeel Akhtar",
       "resumen": "La hermana menor de Sherlock, descubre que su madre ha desaparecido y se dispone a encontrarla. En su búsqueda, saca a relucir el sabueso que corre por sus venas y se encuentra con una conspiración que gira en torno a un misterioso lord, demostrando que su ilustre hermano no es el único talento en la familia.",
       "temporadas": "N/A",
       "duracion": "97 minutos",
