@@ -31,7 +31,7 @@ All the trailers available are dinamically linked from Youtube (_most of them ar
 
 - - - -
 ## TRAILERFLIX 2021 (update)
-This version includes an improvement into the JSON file. A field 'busqueda' was added to get a better and unique searching field. Also I added the searching field and the associated searching function. It works fine, since the shot one! <3
+This version includes an improvement into the JSON file. A field 'busqueda' was added to get a better and unique searching field. I also added an associated searching function(). It works fine, since the first  shoot! <3
 - - - -
 
 
