@@ -86,7 +86,7 @@ $("#txtBuscar").on("keypress", function(e) {
 function buscarContenido(param) {
    if (localStorage.contenidoJSON != undefined) {
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
-      const resultado = contenidoJSON.filter(c => c.genero.includes(param))
+      const resultado = contenidoJSON.filter(c => c.busqueda.includes(param))
             if (resultado.length == 0) {
                M.toast({html: "<p>No se encontró contenido asociado :(</p>", classes: "red darken3 white-text"})
             } else {
