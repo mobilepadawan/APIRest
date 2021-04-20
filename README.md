@@ -56,7 +56,7 @@ In the added searching bar and its code logic, I'm giving to the user the possib
 
 In addition to this parameters, in some cases we have the possibility to search using another key parameters, such as title in another language or any other reference to the movie or series (I.E.: Avangers, Black Panther and Black Widow, gives you the possibility to do this searchi directly using 'Marvel').
 
-Tha main idea for the searching function was create this topic bar with multiple parameters fields to search, but I tried to avoid a nested searching applying a first searching function over the title, with the results apply another searching function over the synophis... (and over and over and over in the rest of fields).
+The main idea for the searching function was create this topic bar with multiple parameters fields to search, but I tried to avoid a nested searching applying a first searching function over the title, with the results apply another searching function over the synophis... (and over and over and over in the rest of fields).
 
 You'll have some screenshots to the end of the section.
 
