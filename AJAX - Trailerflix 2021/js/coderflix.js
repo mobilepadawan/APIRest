@@ -73,6 +73,7 @@ function verDetalle(i) {
 
 function buscarToggle() {
    $("#divBuscar").slideToggle()
+   $("#txtBuscar").focus()
 }
 
 $("#txtBuscar").on("keypress", function(e) {
@@ -82,17 +83,22 @@ $("#txtBuscar").on("keypress", function(e) {
 })
 
 function buscarContenido(param) {
-   debugger
    if (localStorage.contenidoJSON != undefined) {
       console.info("Puedo buscar contenido local.")
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
       //debugger
-      let resultado = contenidoJSON.filter(c => c.genero.includes(param))
-          if (resultado.length == 0) {
-            M.toast({html: "<p>No se encontró contenido asociado :(</p>", classes: "red darken3 white-text"})
-          } else {
-            console.table(resultado)
-          }
+      const resultado = contenidoJSON.filter(c => c.genero.includes(param))
+            if (resultado.length == 0) {
+               M.toast({html: "<p>No se encontró contenido asociado :(</p>", classes: "red darken3 white-text"})
+            } else {
+               console.table(resultado)
+               debugger
+               $('#contenido').html("")
+               leyendaResultados = `<p class="yellow-text">Se encontraron ${resultado.length} coincidencias.</p>`
+               $('#contenido').append(leyendaResultados)
+               for (const ps of resultado)
+                  $('#contenido').append(buildCard(ps))
+            }
    } else {
       console.error("Intente de nuevo más tarde, o habilite el caché local.")
    }
