@@ -58,7 +58,7 @@ In addition to this parameters, in some cases we have the possibility to search 
 
 The main idea for the searching function was create this topic bar with multiple parameters fields to search, but I tried to avoid a nested searching applying a first searching function over the title, with the results apply another searching function over the synophis... (and over and over and over in the rest of fields).
 
-You'll have some screenshots to the end of the section.
+You have some screenshots to the end of the section.
 
 ### Next updates
 I'm thinking to apply a loading structure sliced the content into some cathegories or maybe I'll create a navigation bar with predefined cathegories to filter. I don't know, I don't have a date or any urgency for that. We'll see.
