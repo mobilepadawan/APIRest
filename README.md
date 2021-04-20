@@ -1,19 +1,19 @@
 # AJAX and API REST PROJECTS
 
 ## SUMMARY
-[TRAILERFLIX](https://github.com/mobilepadawan/APIRest/blob/master/README.md#trailerflix)
-[TRAILERFLIX 2021 (update)](https://github.com/mobilepadawan/APIRest/blob/master/README.md#trailerflix-2021-update)
-[FRAMEWORKS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#frameworks)
-[CSS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#css)
-[JS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#js)
-[DB for MOVIES & SERIES](https://github.com/mobilepadawan/APIRest/blob/master/README.md#db-for-movies--series)
-[SCREENSHOTS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#screenshots)
-[CODERBOOK](https://github.com/mobilepadawan/APIRest/blob/master/README.md#coderbook)
-[FRAMEWORKS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#frameworks-1)
-[CSS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#css-1)
-[JS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#js-1)
-[SCREENSHOTS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#screenshots-1)
-[Credits and Copyrights](https://github.com/mobilepadawan/APIRest/blob/master/README.md#credits-and-copyrights)
+- [TRAILERFLIX](https://github.com/mobilepadawan/APIRest/blob/master/README.md#trailerflix)
+- [TRAILERFLIX 2021 (update)](https://github.com/mobilepadawan/APIRest/blob/master/README.md#trailerflix-2021-update)
+- [FRAMEWORKS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#frameworks)
+- [CSS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#css)
+- [JS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#js)
+- [DB for MOVIES & SERIES](https://github.com/mobilepadawan/APIRest/blob/master/README.md#db-for-movies--series)
+- [SCREENSHOTS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#screenshots)
+- [CODERBOOK](https://github.com/mobilepadawan/APIRest/blob/master/README.md#coderbook)
+- [FRAMEWORKS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#frameworks-1)
+- [CSS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#css-1)
+- [JS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#js-1)
+- [SCREENSHOTS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#screenshots-1)
+- [Credits and Copyrights](https://github.com/mobilepadawan/APIRest/blob/master/README.md#credits-and-copyrights)
 
 
 I have two projects on this respository, both using AJAX() to query and show data on screen.
