@@ -72,6 +72,7 @@ function verDetalle(i) {
 }
 
 function buscarToggle() {
+   $("#txtBuscar").val("")
    $("#divBuscar").slideToggle()
    $("#txtBuscar").focus()
 }
@@ -94,6 +95,7 @@ function buscarContenido(param) {
                $('#contenido').append(leyendaResultados)
                for (const ps of resultado)
                   $('#contenido').append(buildCard(ps))
+               buscarToggle()
             }
    } else {
       console.error("Intente de nuevo más tarde, o habilite el caché local.")
