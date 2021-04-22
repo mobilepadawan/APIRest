@@ -7,7 +7,8 @@
   - [CSS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#css)
   - [JS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#js)
   - [DB for MOVIES & SERIES](https://github.com/mobilepadawan/APIRest/blob/master/README.md#db-for-movies--series)
-- - [SCREENSHOTS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#screenshots)
+  - [SCREENSHOTS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#screenshots)
+    - [Searching bar in action](https://github.com/mobilepadawan/APIRest#searching-bar-in-action)
 - [CODERBOOK](https://github.com/mobilepadawan/APIRest/blob/master/README.md#coderbook)
 - [FRAMEWORKS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#frameworks-1)
   - [CSS](https://github.com/mobilepadawan/APIRest/blob/master/README.md#css-1)
@@ -31,7 +32,7 @@ All the trailers available are dinamically linked from Youtube (_most of them ar
 
 - - - -
 ## TRAILERFLIX 2021 (update)
-This version includes an improvement into the JSON file. A field 'busqueda' was added to get a better and unique searching field. I also added an associated searching function(). It works fine, since the first  shoot! <3
+> This version includes an improvement into the JSON file. A field 'busqueda' was added to get a better and unique searching field. I also added an associated searching function(). It works fine, since the first  shoot! <3
 - - - -
 
 
@@ -48,18 +49,44 @@ I also added __JQuery 3.5.1__ for basic animations on the HTML documents and __A
 ### DB for MOVIES & SERIES
 I am taking the information of movies and series from a local JSON file. The cover images were taken from the Internet. The image sizing was normalized by me, and every block of text information on the JSON file was written for me. Some things are invented. Other things are real and maybe, a couple of them, were taken from Wikipedia, IMDB or a similar website.
 
+## Update 2021-04-20 (searching bar)
+In the added searching bar and its code logic, I'm giving to the user the possibility to search any movie or series typing any parameter. The topics included at the 'busqueda' field are:
+- Title
+- Actors
+- Category
+
+In addition to this parameters, in some cases we have the possibility to search using another key parameters, such as title in another language or any other reference to the movie or series (I.E.: Avangers, Black Panther and Black Widow, gives you the possibility to do this searchi directly using 'Marvel').
+
+The main idea for the searching function was create this topic bar with multiple parameters fields to search, but I tried to avoid a nested searching applying a first searching function over the title, with the results apply another searching function over the synophis... (and over and over and over in the rest of fields).
+
+You have some screenshots to the end of the section.
+
+### Next updates
+I'm thinking to apply a loading structure sliced the content into some cathegories or maybe I'll create a navigation bar with predefined cathegories to filter. I don't know, I don't have a date or any urgency for that. We'll see.
 
 - - - -
+
 ### SCREENSHOTS
 These are some screenshots of this Web App, showing the different screens and the correct behavior for the mobile-first paradigm. 
 
-![Content loading animation](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_loading.jpg)
+![Content loading animation](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/screenshots/vertical_loading.jpg?raw=true)
 
-![Content navigation](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_navigation.jpg)
+![Content navigation](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/screenshots/vertical_navigation.jpg?raw=true)
 
-![Content detail](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/vertical_detail.jpg)
+![Content detail](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/screenshots/vertical_detail.jpg?raw=true)
 
-![Content Responsive](https://github.com/mobilepadawan/coderflix/blob/master/AJAX%20-%20Trailerflix/images/screenshots/horizontal_navigation.jpg)
+![Content Responsive](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/screenshots/horizontal_navigation.jpg?raw=true)
+
+#### Searching Bar in action
+![Searching bar button on top of the screen](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Captura%20de%20Pantalla%202021-04-20%20a%20la(s)%2008.50.23.png?raw=true)
+
+![Showing the searching bar textbox](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Captura%20de%20Pantalla%202021-04-20%20a%20la(s)%2008.50.48.png?raw=true)
+
+![Results of a simple searching topic typed](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Captura%20de%20Pantalla%202021-04-20%20a%20la(s)%2008.51.36.png?raw=true)
+
+![Another searching with multiple results](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Captura%20de%20Pantalla%202021-04-20%20a%20la(s)%2008.52.27.png?raw=true)
+
+![And a search over a hidden topic into the 'busqueda' field](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Captura%20de%20Pantalla%202021-04-20%20a%20la(s)%2008.53.26.png?raw=true)
 
 - - - -
 
@@ -81,11 +108,11 @@ I added JQuery 3.5.1 to show a basic hide() and show() effects over different HT
 ### SCREENSHOTS
 Following the paradigm of Trailerflix App, __Coderbook__ is also behavioring fine on both ecosystems: __mobile__ and __web__.
 
-![Coderbook home page](https://github.com/mobilepadawan/APIRest/blob/master/API%20Rest%20-%20coderbook/images/screenshots/coderbook-home.jpg)
+![Coderbook home page](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Coderbook.screenshots/coderbook-home.jpg?raw=true)
 
-![Coderbook searching result](https://github.com/mobilepadawan/APIRest/blob/master/API%20Rest%20-%20coderbook/images/screenshots/coderbook-results.jpg)
+![Coderbook searching result](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Coderbook.screenshots/coderbook-results.jpg?raw=true)
 
-![Coderbook responsive](https://github.com/mobilepadawan/APIRest/blob/master/API%20Rest%20-%20coderbook/images/screenshots/coderbook-responsive.jpg)
+![Coderbook responsive](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/Coderbook.screenshots/coderbook-responsive.jpg?raw=true)
 
 
 - - - -
