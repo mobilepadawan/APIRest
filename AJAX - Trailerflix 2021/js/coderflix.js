@@ -102,3 +102,18 @@ function buscarContenido(param) {
       console.error("Intente de nuevo más tarde, o habilite el caché local.")
    }
 }
+
+const gen = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
+
+function agrupoPorGenero (gen, data) {
+      for (const g of gen) {
+         const res = data.filter(r => r.gen.includes(g))
+         console.log(g)
+         console.table(res)
+      }
+}
+
+function muestroGeneros() {
+   contenidoJSON = JSON.parse(localStorage.contenidoJSON)
+   agrupoPorGenero(gen, contenidoJSON)
+}
