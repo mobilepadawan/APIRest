@@ -84,6 +84,7 @@ $("#txtBuscar").on("keypress", function(e) {
 })
 
 function buscarContenido(param) {
+   debugger
    if (localStorage.contenidoJSON != undefined) {
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
       const resultado = contenidoJSON.filter(c => c.busqueda.includes(param))
