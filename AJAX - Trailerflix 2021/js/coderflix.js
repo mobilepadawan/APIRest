@@ -91,7 +91,7 @@ function buscarContenido(param) {
                M.toast({html: "<p>No se encontró contenido asociado :(</p>", classes: "red darken3 white-text"})
             } else {
                $('#contenido').html("")
-               leyendaResultados = `<p class="yellow-text">Se encontraron ${resultado.length} coincidencias.</p>`
+               leyendaResultados = `<p class="red-text darken3">Se encontraron ${resultado.length} coincidencias.</p>`
                $('#contenido').append(leyendaResultados)
                for (const ps of resultado)
                   $('#contenido').append(buildCard(ps))
