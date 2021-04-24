@@ -2,7 +2,7 @@ let contenidoJSON = []
 
 function cargoContenidoStreaming() {
    $.ajax({
-      url: "js/api.json",
+      url: "js/trailerflix.json",
       dataType: "json",
       success: function(contenidoJSON) {
          localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
