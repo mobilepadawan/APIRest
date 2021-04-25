@@ -20,3 +20,8 @@ h1 {
     border-bottom: 1px solid rgb(156, 77, 77) !important;
     box-shadow: 0 1px 0 0 #000;
   }
+
+  .vertical-spaces {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }

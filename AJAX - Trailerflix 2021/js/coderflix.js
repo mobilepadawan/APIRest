@@ -108,6 +108,7 @@ const gen = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Fam
 function agrupoPorGenero (gen, data) {
       for (const g of gen) {
          const res = data.filter(r => r.gen.includes(g))
+         
          console.log(g)
          console.table(res)
       }
