@@ -83,6 +83,10 @@ $("#txtBuscar").on("keypress", function(e) {
    }
 })
 
+function tituloCateroria(g) {
+   return `<h3 class="white-text vertical-spaces">${g}</h3>`
+}
+
 function buscarContenido(param) {
    debugger
    if (localStorage.contenidoJSON != undefined) {
@@ -105,13 +109,13 @@ function buscarContenido(param) {
 
 const gen = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
 
-function agrupoPorGenero (gen, data) {
-      for (const g of gen) {
+function agrupoPorGenero(gen, data) {   
+   $("#contenido").html("")
+   for (const g of gen) {
          const res = data.filter(r => r.gen.includes(g))
-         
-         console.log(g)
-         console.table(res)
-      }
+               $("#contenido").append(tituloCateroria(g))
+               $("#contenido").append(buildCard(res))
+         }
 }
 
 function muestroGeneros() {
