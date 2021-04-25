@@ -114,11 +114,13 @@ function agrupoPorGenero(gen, data) {
    for (const g of gen) {
          const res = data.filter(r => r.gen.includes(g))
                $("#contenido").append(tituloCateroria(g))
-               $("#contenido").append(buildCard(res))
+               for (const r of res)
+                  $("#contenido").append(buildCard(r))
          }
 }
 
 function muestroGeneros() {
+   debugger
    contenidoJSON = JSON.parse(localStorage.contenidoJSON)
    agrupoPorGenero(gen, contenidoJSON)
 }
