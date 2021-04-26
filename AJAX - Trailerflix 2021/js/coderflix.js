@@ -84,11 +84,14 @@ $("#txtBuscar").on("keypress", function(e) {
 })
 
 function tituloCateroria(g) {
-   return `<h3 class="white-text vertical-spaces">${g}</h3>`
+   return `<div class="col s12 m12 l12">
+               <div class="center" width="100%">
+                   <h3 class="white-text vertical-spaces">${g}</h3>
+               </div>
+           </div>`
 }
 
 function buscarContenido(param) {
-   debugger
    if (localStorage.contenidoJSON != undefined) {
       contenidoJSON = JSON.parse(localStorage.contenidoJSON)
       const resultado = contenidoJSON.filter(c => c.busqueda.includes(param))
@@ -124,3 +127,12 @@ function muestroGeneros() {
    contenidoJSON = JSON.parse(localStorage.contenidoJSON)
    agrupoPorGenero(gen, contenidoJSON)
 }
+
+$("#btnTodos").click(()=> {
+   contenidoJSON = []
+   cargoContenidoStreaming()
+})
+
+$("#btnCategorias").click(()=> {
+   muestroGeneros()
+})
