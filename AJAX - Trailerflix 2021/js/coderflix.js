@@ -1,6 +1,7 @@
 let contenidoJSON = []
 
 function cargoContenidoStreaming() {
+   $("#contenido").html("")
    $.ajax({
       url: "js/trailerflix.json",
       dataType: "json",
@@ -53,6 +54,7 @@ function errorJSON() {
 setTimeout(() => {
    cargoContenidoStreaming()
    $('#contenido').fadeIn("fast", function() {
+      $('#visualizacion').fadeIn(200)
       $('#cargando').fadeOut(200)
    })
 }, 2000)
@@ -123,7 +125,6 @@ function agrupoPorGenero(gen, data) {
 }
 
 function muestroGeneros() {
-   debugger
    contenidoJSON = JSON.parse(localStorage.contenidoJSON)
    agrupoPorGenero(gen, contenidoJSON)
 }
