@@ -520,5 +520,19 @@
       "duracion": "110 minutos",
       "reparto": "Ryan Phillippe, Rachael Leigh Cook, Tim Robbins, Claire Forlani, Richard Rountree, Tygh Runyan, Ned Bellamy, Tyler Labine",
       "trailer": ""
+   },
+   {
+      "id": 40,
+      "poster": "./posters/40.jpg",
+      "titulo": "Stowaway",
+      "categoria": "Película",
+      "gen": "Drama",
+      "genero": "Drama, Ciencia ficción, Suspenso",
+      "busqueda": "",
+      "resumen": "Los tres tripulantes de una misión a Marte deben tomar una decisión imposible cuando un pasajero imprevisto compromete la vida de todos a bordo. Millions of miles from home, survival comes with sacrifice..",
+      "temporadas": "N/A",
+      "duracion": "118 minutos",
+      "reparto": "Anna Kendrick, Daniel Dae Kim, Shamier Anderson, Toni Collette",
+      "trailer": ""
    }
 ]
