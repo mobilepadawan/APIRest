@@ -464,5 +464,61 @@
       "duracion": "97 minutos",
       "reparto": "John Boyega, Scott Eastwood, Cailee Spaeny, Jing Tian, Rinko Kikuchi, Burn Gorman",
       "trailer": ""
+   },
+   {
+      "id": 36,
+      "poster": "./posters/36.jpg",
+      "titulo": "JOBS: La Vida De Steve Jobs",
+      "categoria": "Película",
+      "gen": "Hechos verídicos",
+      "genero": "Drama, Historia, Tecnología",
+      "busqueda": "JOBS: La Vida De Steve Jobs, Drama, Historia, Biopic, Hechos verídicos, Ahston Kutcher, Dermot Mulroney, Josh Gad, Lukas Haas, Matthew Modine, J.K. Simmons, Lesley Ann Warren",
+      "resumen": "Sólo hace falta una persona para empezar una revolución. Jobs es la extraordinaria historia de Steve Jobs, el original innovador y emprendedor que no dejó que nada se interpusiera en su camino hacia la grandeza. La película cuenta la épica y turbulenta historia de Jobs mientras abría un camino que cambió la tecnología - y el mundo - para siempre. Su vida es repasada desde que era adolescente, intentando estudiar en la universidad, hasta el año 2001, cuando el iPod fue presentado al mundo y comenzó a 'allanar' el camino para lo que años después, sería el iPhone.",
+      "temporadas": "N/A",
+      "duracion": "104 minutos",
+      "reparto": "Ahston Kutcher, Dermot Mulroney, Josh Gad, Lukas Haas, Matthew Modine, J.K. Simmons, Lesley Ann Warren",
+      "trailer": ""
+   },
+   {
+      "id": 37,
+      "poster": "./posters/37.jpg",
+      "titulo": "Piratas de Silicon Valey",
+      "categoria": "Película",
+      "gen": "Hechos verídicos",
+      "genero": "Tecnología, Historia, Comedia",
+      "busqueda": "Piratas de Silicon Valey, Noah Wyle, Anthony Michael, Joey Slotnick, J.G. Hertzler, Wayne Pére, Sheila Shaw, Gemma Zamprogna, John DiMaggio, Drama, Historia, Comedia, Hechos verídicos",
+      "resumen": "Esta película es el documental semigracioso sobre los hombres que hicieron el mundo de la tecnología lo que es hoy, sus luchas durante el colegio, la fundación de sus compañías y las acciones ingeniosas que tomaron para aumentar los Imperios corporativos globales de Apple Computer Inc. y Microsoft Corporation.",
+      "temporadas": "N/A",
+      "duracion": "104 minutos",
+      "reparto": "Noah Wyle, Anthony Michael, Joey Slotnick, J.G. Hertzler, Wayne Pére, Sheila Shaw, Gemma Zamprogna, John DiMaggio",
+      "trailer": ""
+   },
+   {
+      "id": 38,
+      "poster": "./posters/38.jpg",
+      "titulo": "Red Social",
+      "categoria": "Película",
+      "gen": "Hechos verídicos",
+      "genero": "Drama, Historia, Tecnología",
+      "busqueda": "",
+      "resumen": "En una noche de otoño de 2003, el genio de la programación de computación de la Universidad de Harvard Mark Zuckerberg se sienta en su computadora y acaloradamente comienza a trabajar en una nueva idea. En una furia de los blogs y la programación, lo que comienza en su dormitorio como un pequeño sitio entre amigos pronto se convierte en una red social global y una revolución en la comunicación. A sólo seis años y 500 millones de amigos más tarde, Mark Zuckerberg es el multimillonario más joven de la historia ... pero para este empresario, el éxito conduce a complicaciones tanto personales como legales.",
+      "temporadas": "N/A",
+      "duracion": "116 minutos",
+      "reparto": "Jesse Eisenberg, Andrew Garfield, Justin Timberlake, Armie Hammer, Max Minghella, Rooney Mara, Brenda Song, Rashida Jones, John Gertz",
+      "trailer": ""
+   },
+   {
+      "id": 39,
+      "poster": "./posters/39.jpg",
+      "titulo": "Antitrust",
+      "categoria": "Película",
+      "gen": "Acción",
+      "genero": "Acción, Suspenso, Drama",
+      "busqueda": "",
+      "resumen": "Milo Hoffman es un joven informático increíblemente prometedor para su edad que rápidamente es contratado por una importante empresa de Sillicon Valley. El empleo de sus sueños se ha hecho realidad, ya que ahí puede trabajar con los ordenadores más potentes del mundo y con las últimas tecnologías que aún no han salido al mercado. El Paraíso de un informático. Su jefe, Gary Winston , es un poderoso pez gordo de la industria que en un principio parece un tipo íntegro y legal. Pero pronto descubrirá que fisgar en sus archivos secretos no es la mejor idea si uno quiere conservar su trabajo... y su vida.",
+      "temporadas": "N/A",
+      "duracion": "110 minutos",
+      "reparto": "Ryan Phillippe, Rachael Leigh Cook, Tim Robbins, Claire Forlani, Richard Rountree, Tygh Runyan, Ned Bellamy, Tyler Labine",
+      "trailer": ""
    }
 ]
