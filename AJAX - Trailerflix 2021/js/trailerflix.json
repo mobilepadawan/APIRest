@@ -22,7 +22,8 @@
       "busqueda": "The Umbrella Academy, Sci-Fi, Fantasía, Drama, Tom Hopper, David Castañeda, Emmy Raver-Lampman, Robert Sheehan, Aidan Gallagher, Elliot Page",
       "resumen": "La muerte de su padre reúne a unos hermanos distanciados y con extraordinarios poderes que descubren impactantes secretos y una amenaza que se cierne sobre la humanidad.",
       "temporadas": 1,
-      "reparto": "Tom Hopper, David Castañeda, Emmy Raver-Lampman, Robert Sheehan, Aidan Gallagher, Elliot Page"
+      "reparto": "Tom Hopper, David Castañeda, Emmy Raver-Lampman, Robert Sheehan, Aidan Gallagher, Elliot Page",
+      "trailer": "https://www.youtube.com/embed/KHucKOK-Vik"
    },
    {
       "id": 5,
@@ -34,7 +35,8 @@
       "busqueda": "Gambito de Dama, Drama, Ficción, Sucesos, Anya Taylor-Joy, Thomas Brodie-Sangster, Harry Melling, Moses Ingram, Chloe Pirrie, Janina Elkin",
       "resumen": "En los cincuenta, una joven de un orfanato descubre que tiene un increíble don para el ajedrez y recorre el arduo camino a la fama mientras lucha contra las adicciones.",
       "temporadas": 1,
-      "reparto": "Anya Taylor-Joy, Thomas Brodie-Sangster, Harry Melling, Moses Ingram, Chloe Pirrie, Janina Elkin"
+      "reparto": "Anya Taylor-Joy, Thomas Brodie-Sangster, Harry Melling, Moses Ingram, Chloe Pirrie, Janina Elkin",
+      "trailer": "https://www.youtube.com/embed/lbleRbyGKL4"
    },
    {
       "id": 2,
@@ -46,7 +48,8 @@
       "busqueda": "Riverdale, Drama, Misterio, Ficción, Lili Reinhart, Casey Cott, Camila Mendes, Marisol Nichols, Madelaine Petsch, Mädchen Amick",
       "resumen": "El paso a la edad adulta incluye sexo, romance, escuela y familia. Para Archie y sus amigos, también hay misterios oscuros.",
       "temporadas": 5,
-      "reparto": "Lili Reinhart, Casey Cott, Camila Mendes, Marisol Nichols, Madelaine Petsch, Mädchen Amick"
+      "reparto": "Lili Reinhart, Casey Cott, Camila Mendes, Marisol Nichols, Madelaine Petsch, Mädchen Amick",
+      "trailer": "https://www.youtube.com/embed/HxtLlByaYTc"
       },
    {
       "id": 1,
@@ -58,7 +61,8 @@
       "busqueda": "The Crown, Drama, Hechos verídicos, Claire Fox, Olivia Colman, Matt Smith, Tobias Menzies, Vanesa Kirby, Helena Bonham Carter",
       "resumen": "Este drama narra las rivalidades políticas y el romance de la reina Isabel II, así como los sucesos que moldearon la segunda mitad del siglo XX.",
       "temporadas": 4,
-      "reparto": "Claire Fox, Olivia Colman, Matt Smith, Tobias Menzies, Vanesa Kirby, Helena Bonham Carter"
+      "reparto": "Claire Fox, Olivia Colman, Matt Smith, Tobias Menzies, Vanesa Kirby, Helena Bonham Carter",
+      "trailer": "https://www.youtube.com/embed/JWtnJjn6ng0"
       },
    {
       "id": 6,
@@ -71,7 +75,8 @@
       "resumen": "La hermana menor de Sherlock, descubre que su madre ha desaparecido y se dispone a encontrarla. En su búsqueda, saca a relucir el sabueso que corre por sus venas y se encuentra con una conspiración que gira en torno a un misterioso lord, demostrando que su ilustre hermano no es el único talento en la familia.",
       "temporadas": "N/A",
       "duracion": "97 minutos",
-      "reparto": "Millie Bobby Brown, Henry Cavill, Sam Claflin, Helena Bonham Carter, Louis Partridge, Adeel Akhtar"
+      "reparto": "Millie Bobby Brown, Henry Cavill, Sam Claflin, Helena Bonham Carter, Louis Partridge, Adeel Akhtar",
+      "trailer": "https://www.youtube.com/embed/3t1g2pa355k"
    },
    {
       "id": 7,
@@ -98,7 +103,8 @@
       "resumen": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
       "temporadas": "N/A",
       "duracion": "97 minutos",
-      "reparto": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner"
+      "reparto": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner",
+      "trailer": "https://www.youtube.com/embed/TcMBFSGVi1c"
    },
    {
       "id": 9,
@@ -110,7 +116,8 @@
       "busqueda": "Juego de tronos, Game of Thrones, Aventura, Fantasía, Drama, Emilia Clarke, Lena Headey, Sophie Turner, Kit Harington, Peter Dinklage, Nikolaj Coster-Waldau",
       "resumen": "En un mundo fantástico y en un contexto medieval varias familias, relativas a la nobleza, se disputan el poder para dominar el territorio ficticio de Poniente (Westeros) y tomar el control de los Siete Reinos desde el Trono de Hierro, lugar donde el rey ejerce el poder.",
       "temporadas": "8",
-      "reparto": "Emilia Clarke, Lena Headey, Sophie Turner, Kit Harington, Peter Dinklage, Nikolaj Coster-Waldau"
+      "reparto": "Emilia Clarke, Lena Headey, Sophie Turner, Kit Harington, Peter Dinklage, Nikolaj Coster-Waldau",
+      "trailer": "https://www.youtube.com/embed/KPLWWIOCOOQ"
    },
    {
       "id": 10,
@@ -122,7 +129,8 @@
       "busqueda": "The Flash, DC Comics, Sci-Fi, Fantasía, Acción, Grant Gustin, Carlos Valdes, Danielle Panabaker, Candice Patton, Jesse L. Martin, Tom Cavanagh",
       "resumen": "Sigue las veloces aventuras de Barry Allen, un joven común y corriente con el deseo latente de ayudar a los demás. Cuando una inesperada partícula aceleradora golpea por accidente a Barry, de pronto se encuentra cargado de un increíble poder para moverse a increíbles velocidades. Mientras Barry siempre ha tenido el alma de un héroe, sus nuevos poderes le han dado la capacidad de actuar como tal.",
       "temporadas": "6",
-      "reparto": "Grant Gustin, Carlos Valdes, Danielle Panabaker, Candice Patton, Jesse L. Martin, Tom Cavanagh"
+      "reparto": "Grant Gustin, Carlos Valdes, Danielle Panabaker, Candice Patton, Jesse L. Martin, Tom Cavanagh",
+      "trailer": "https://www.youtube.com/embed/Yj0l7iGKh8g"
    },
    {
       "id": 11,
@@ -147,7 +155,8 @@
       "busqueda": "Friends, Amigos, Comedia, Familia, Drama, Sitcom, Jennifer Aniston, Courteney Cox, Lisa Kudrow, David Schwimmer, Matthew Perry, Matt LeBlanc",
       "resumen": "'Friends' narra las aventuras y desventuras de seis jóvenes de Nueva York: Rachel, Monica, Phoebe, Ross, Chandler y Joey. Ellos forman una unida pandilla de amigos que viven en Manhattan y que suelen reunirse en sus apartamentos o en su bar habitual cafetería, el Central Perk. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.",
       "temporadas": "10",
-      "reparto": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, David Schwimmer, Matthew Perry, Matt LeBlanc"
+      "reparto": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, David Schwimmer, Matthew Perry, Matt LeBlanc",
+      "trailer": "https://www.youtube.com/embed/ekYGfU0XIx0"
    },
    {
       "id": 13,
@@ -159,7 +168,8 @@
       "busqueda": "Anne with an 'E', Drama, Familia, Western, Amybeth McNulty, Geraldine James, R. H. Thomson, Corrine Koslo, Dalila Bela, Lucas Jade Zumann",
       "resumen": "Anne Shirley es una niña huérfana que vive en un pequeño pueblo llamado Avonlea que pertenece a la Isla del Príncipe Eduardo, en el año 1890. Después de una infancia difícil, donde fue pasando de orfanato a hogares de acogida, es enviada por error a vivir con una solterona y su hermano. Cuando cumple 13 años, Anne va a conseguir transformar su vida y el pequeño pueblo donde vive gracias a su fuerte personalidad, intelecto e imaginación. Basada en la inolvidable novela.",
       "temporadas": "2",
-      "reparto": "Amybeth McNulty, Geraldine James, R. H. Thomson, Corrine Koslo, Dalila Bela, Lucas Jade Zumann"
+      "reparto": "Amybeth McNulty, Geraldine James, R. H. Thomson, Corrine Koslo, Dalila Bela, Lucas Jade Zumann",
+      "trailer": "https://www.youtube.com/embed/M4T-_aB8smU"
    },
    {
       "id": 14,
@@ -225,7 +235,7 @@
       "temporadas": "N/A",
       "duracion": "97 minutos",
       "reparto": "Jessica Chastain, John Malkovich, Colin Farrell, Common, Geena Davis, Ioan Gruffudd",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/eLEwNo78f0k"
    },
    {
       "id": 19,
@@ -239,7 +249,7 @@
       "temporadas": "N/A",
       "duracion": "97 minutos",
       "reparto": "Margot Robbie, Ewan McGregor, Mary Elizabeth Winstead, Jurnee Smollett, Rosie Perez, Chris Messina",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/saUmnenKbBM"
    },
    {
       "id": 20,
@@ -337,7 +347,7 @@
       "temporadas": "N/A",
       "duracion": "97 minutos",
       "reparto": "Génesis Rodríguez, Vincent Piazza, Benjamin Sokolow, Emily Bayiokos",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/0RvV7TNUlkQ"
    },
    {
       "id": 27,
@@ -421,7 +431,7 @@
       "temporadas": "N/A",
       "duracion": "97 minutos",
       "reparto": "Bryce Dallas Howard, Chris Pratt, Irrfan Khan, Vincent D'Onofrio, Omar Sy, Nick Robinson, Judy Greer",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/RFinNxS5KN4"
    },
    {
       "id": 33,
@@ -449,7 +459,7 @@
       "temporadas": "N/A",
       "duracion": "97 minutos",
       "reparto": "Ryan Gosling, Claire Foy, Jason Clarke, Kyle Chandler, Corey Stoll, Patrick Fugit",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/PSoRx87OO6k"
    },
    {
       "id": 35,
@@ -463,7 +473,7 @@
       "temporadas": "N/A",
       "duracion": "97 minutos",
       "reparto": "John Boyega, Scott Eastwood, Cailee Spaeny, Jing Tian, Rinko Kikuchi, Burn Gorman",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/_EhiLLOhVis"
    },
    {
       "id": 36,
@@ -477,7 +487,7 @@
       "temporadas": "N/A",
       "duracion": "104 minutos",
       "reparto": "Ahston Kutcher, Dermot Mulroney, Josh Gad, Lukas Haas, Matthew Modine, J.K. Simmons, Lesley Ann Warren",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/FrvkCS0ZGPU"
    },
    {
       "id": 37,
@@ -491,7 +501,7 @@
       "temporadas": "N/A",
       "duracion": "104 minutos",
       "reparto": "Noah Wyle, Anthony Michael, Joey Slotnick, J.G. Hertzler, Wayne Pére, Sheila Shaw, Gemma Zamprogna, John DiMaggio",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/lEyrivrjAuU"
    },
    {
       "id": 38,
@@ -505,7 +515,7 @@
       "temporadas": "N/A",
       "duracion": "116 minutos",
       "reparto": "Jesse Eisenberg, Andrew Garfield, Justin Timberlake, Armie Hammer, Max Minghella, Rooney Mara, Brenda Song, Rashida Jones, John Gertz",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/lB95KLmpLR4"
    },
    {
       "id": 39,
@@ -519,7 +529,7 @@
       "temporadas": "N/A",
       "duracion": "110 minutos",
       "reparto": "Ryan Phillippe, Rachael Leigh Cook, Tim Robbins, Claire Forlani, Richard Rountree, Tygh Runyan, Ned Bellamy, Tyler Labine",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/k3TwIJjyjPM"
    },
    {
       "id": 40,
@@ -529,10 +539,24 @@
       "gen": "Drama",
       "genero": "Drama, Ciencia ficción, Suspenso",
       "busqueda": "",
-      "resumen": "Los tres tripulantes de una misión a Marte deben tomar una decisión imposible cuando un pasajero imprevisto compromete la vida de todos a bordo. Millions of miles from home, survival comes with sacrifice..",
+      "resumen": "Una misión al planeta Marte. Dos años de duración. De repente, los tres tripulantes afectados a esta labor deben tomar una decisión imposible cuando un pasajero imprevisto compromete la vida de todos a bordo. No hay vuelta atrás. La decisión deberá tomarse contemplando la vida de los, ahora, cuatro pasajeros aún cuando la supervivecnaia tenga que acarrear algún sacrificio.",
       "temporadas": "N/A",
       "duracion": "118 minutos",
       "reparto": "Anna Kendrick, Daniel Dae Kim, Shamier Anderson, Toni Collette",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/embed/A_apvQkWsVY"
+   },
+   {
+      "id": 41,
+      "poster": "./posters/41.jpg",
+      "titulo": "Liga de la Justicia - Zack Snyder",
+      "categoria": "Película",
+      "gen": "Acción",
+      "genero": "Acción, Aventura, Ciencia ficción, Fantasía",
+      "busqueda": "",
+      "resumen": "Decidido a asegurarse de que el sacrificio final de Superman no fue en vano, Bruce Wayne alinea fuerzas con Diana Prince con planes para reclutar un equipo de metahumanos para proteger al mundo de una amenaza de proporciones catastróficas que se aproxima. En esta fascinante entrega, no apta para niños, verás cómo se conforma la Liga de la Justicia, uniendo a los principales superhéroes conocidos como Metahumanos.",
+      "temporadas": "N/A",
+      "duracion": "242 minutos",
+      "reparto": "Ben Affleck, Henry Cavill, Gal Gadot, Jason Momoa, Ezra Miller, Ray Fisher, Amy Adams, Jeremy Irons, Connie Nielsen",
+      "trailer": "https://www.youtube.com/embed/BUb_-RxsoBs"
    }
 ]
