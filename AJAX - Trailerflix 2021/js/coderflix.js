@@ -52,7 +52,8 @@ function errorJSON() {
 }
 
 setTimeout(() => {
-   cargoContenidoStreaming()
+   muestroGeneros()
+   //cargoContenidoStreaming()
    $('#contenido').fadeIn("fast", function() {
       $('#visualizacion').fadeIn(200)
       $('#cargando').fadeOut(200)
