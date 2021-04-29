@@ -572,5 +572,33 @@
       "duracion": "",
       "reparto": "Charlie Sheen, Jon Cryer, Angus T. Jones, Conchata Ferrel, Holland Taylor, Marin Hinkle, Jennifer Bini Taylor, Melanie Lynskey, Ashton Kutcher, Amber Tamblyn",
       "trailer": "https://www.youtube.com/embed/mVHDanSl2pc"
+   },
+   {
+      "id": 43,
+      "poster": "./posters/43.jpg",
+      "titulo": "La casa de Papel",
+      "categoria": "Serie",
+      "gen": "Acción",
+      "genero": "Aventura, Drama, Acción",
+      "busqueda": "",
+      "resumen": "Ocho ladrones toman rehenes en la Fábrica Nacional de Moneda y Timbre de España, mientras el líder de la banda manipula a la policía para cumplir con su plan.",
+      "temporadas": "4",
+      "duracion": "",
+      "reparto": "Úrsula Corberó, Álvaro Morte, Itziar Ituño, Pedro Alonso, Alba Flores, Miguel Herrán, Jaime Lorente, Esther Acebo, Enrique Arce",
+      "trailer": "https://www.youtube.com/embed/w1jkStuRQU8"
+   },
+   {
+      "id": 44,
+      "poster": "./posters/44.jpg",
+      "titulo": "Stranger Things",
+      "categoria": "Serie",
+      "gen": "Suspenso",
+      "genero": "Misterio, Suspenso, Familia",
+      "busqueda": "",
+      "resumen": "Pasan cosas muy extrañas en Hawkins, Indiana, tras una desaparición que revela la presencia de una niña con poderes sobrenaturales. Después de la extraña desaparición de un niño, un pueblo se encuentra ante un misterio que revela experimentos secretos, fuerzas sobrenaturales.",
+      "temporadas": "4",
+      "duracion": "",
+      "reparto": "Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown, Gaten Matarazzo, Caleb McLaughlin, Natalia Dyer, Charlie, Heaton, Joe Keery",
+      "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU"
    }
 ]
