@@ -37,21 +37,8 @@ h1 {
     border-color: transparent !important;
 }
 
-.input-field input[type=search] + label, .materialize-textarea:focus:not([readonly]) + label {
-    color: grey !important;
-   }
-   
-   .input-field input[type=search], .materialize-textarea:focus:not([readonly]) {
-    border-bottom: 0px solid grey !important;
-    box-shadow: 0 0px 0 0 grey !important;
-   }
-   
-   
-   .input-field input[type=search]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
-    color: grey !important;
-   }
-   
-   .input-field input[type=search]:focus, .materialize-textarea:focus:not([readonly]) {
-    border-bottom: 0px solid grey !important;
-    box-shadow: 0 0px 0 0 grey !important;
-   }
+  /* label underline focus color */
+  input:focus {
+    border-bottom: 1px solid grey !important;
+    box-shadow: 0 1px 0 0 grey !important
+  }
