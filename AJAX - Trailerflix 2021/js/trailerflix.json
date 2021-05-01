@@ -616,6 +616,20 @@
       "trailer": "https://www.youtube.com/embed/OiTiKOy59o4"
    },
    {
+      "id": 49,
+      "poster": "./posters/49.jpg",
+      "titulo": "It (eso)",
+      "categoria": "Película",
+      "gen": "Terror",
+      "genero": "Terror, Suspenso, Drama",
+      "busqueda": "It, IT, Eso, eso, Terror, Suspenso, Drama, Jaeden Martell, Jeremy Ray, Sophia Lillis, Finn Wolfhard, Chosen Jacobs, Jack Dylan, Wyatt Oleff, Bill Skarsgård, Nicholas Hamilton, Maine, Loosers, Los Perdedores, Stephen King",
+      "resumen": "Remake del clásico de Stephen King, y de la película homónima de 1990, en el que un payaso aterroriza a los niños de un vecindario. En un pequeño pueblo de Maine, siete niños conocidos como el Club de los Perdedores se encuentran cara a cara con problemas de la vida, matones y un monstruo que toma la forma de un payaso llamado Pennywise..",
+      "temporadas": "",
+      "duracion": "135 minutos",
+      "reparto": "Jaeden Martell, Jeremy Ray, Sophia Lillis, Finn Wolfhard, Chosen Jacobs, Jack Dylan, Wyatt Oleff, Bill Skarsgård, Nicholas Hamilton",
+      "trailer": "https://www.youtube.com/embed/FnCdOQsX5kc"
+   },
+   {
       "id": 46,
       "poster": "./posters/46.jpg",
       "titulo": "Apollo 13",
@@ -628,5 +642,47 @@
       "duracion": "140 minutos",
       "reparto": "Tom Hanks, Bill Paxton, Kevin Bacon, Gary Sinise, Ed Harris, Kathleen Quinlan, Roger Corman, Chris Ellis, Xander Berkeley",
       "trailer": "https://www.youtube.com/embed/e3ZtOS4MCkk"
+   },
+   {
+      "id": 47,
+      "poster": "./posters/47.jpg",
+      "titulo": "La profecía",
+      "categoria": "Película",
+      "gen": "Terror",
+      "genero": "Terror, Suspenso, Drama",
+      "busqueda": "La profecía, The Prophecy, The Omen, The Omeh, Terror, Suspenso, Drama",
+      "resumen": "Incapaz de decirle a su mujer Katherine la trágica muerte de su hijo recién nacido, el diplomático americano Robert Thorn acepta un huérfano como su hijo. Los detalles del nacimiento del chico son un secreto, pero cuando Damien va creciendo, empieza a dar muestras de que no es un chico corriente.",
+      "temporadas": "",
+      "duracion": "110 minutos",
+      "reparto": "Liev Schreiber, Julia Stiles, Seamus Davey-Fitzpatrick, David Thewils, Pete Postlethwaite, Mia Farrow, Predrag Bjelac, Carlo Sabatini, Amy Huck",
+      "trailer": "https://www.youtube.com/embed/8L-1Qk_MQQs"
+   },
+   {
+      "id": 48,
+      "poster": "./posters/48.jpg",
+      "titulo": "El exorcista",
+      "categoria": "Película",
+      "gen": "Terror",
+      "genero": "Terror, Suspenso, Drama",
+      "busqueda": "El exorcista, The exorcist, Terror, Suspenso, Drama, Ellen Burstyn, Linda Blair, Max vox Sydow, Lee J. Cobb, Kitty Winn, Jack MacGowran, Jason Miller, William O'Malley, Barton Heyman",
+      "resumen": "Regan es una niña de doce años víctima de fenómenos paranormales como la levitación o la manifestación de una fuerza sobrehumana. Su madre, aterrorizada, tras someter a su hija a múltiples análisis médicos que no ofrecen ningún resultado, acude a un sacerdote con estudios de psiquiatría. Éste está convencido de que el mal no es físico sino espiritual, es decir, que la niña es víctima de una posesión diabólica. Por eso, con la ayuda de otro sacerdote decide practicar un exorcismo.",
+      "temporadas": "",
+      "duracion": "122 minutos",
+      "reparto": "Ellen Burstyn, Linda Blair, Max vox Sydow, Lee J. Cobb, Kitty Winn, Jack MacGowran, Jason Miller, William O'Malley, Barton Heyman",
+      "trailer": "https://www.youtube.com/embed/YDGw1MTEe9k"
+   },
+   {
+      "id": 50,
+      "poster": "./posters/50.jpg",
+      "titulo": "The Office",
+      "categoria": "Serie",
+      "gen": "Comedia",
+      "genero": "Comedia, Familia",
+      "busqueda": "The Office, La Oficina, Comedia, Familia, ",
+      "resumen": "Steve Carell protagoniza The Office, un fresco y divertido vistazo, con formato pseudo-documental, al día a día en la vida de unos excéntricos trabajadores de la empresa Dunder Mifflin. El serio pero despistadísimo director Michael Scott se considera un magnífico jefe y mentor, pero realmente inspira más críticas que respeto a sus empleados.",
+      "temporadas": "9",
+      "duracion": "N/A",
+      "reparto": "Rainn Wilson, Steve Carell, Jenna Fischer, John Krasinski, B.J. Novak, Kate Flannery, Brian Baumgartner, Leslie David Baker, Mindy Kaling, Angela Kinsey",
+      "trailer": "https://www.youtube.com/embed/YDGw1MTEe9k"
    }
 ]
