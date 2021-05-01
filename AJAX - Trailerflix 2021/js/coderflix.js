@@ -1,4 +1,5 @@
 let contenidoJSON = []
+const gen = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
 
 function cargoContenidoStreaming() {
    $("#contenido").html("")
@@ -112,8 +113,6 @@ function buscarContenido(param) {
       console.error("Intente de nuevo más tarde, o habilite el caché local.")
    }
 }
-
-const gen = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
 
 function agrupoPorGenero(gen, data) {   
    $("#contenido").html("")
