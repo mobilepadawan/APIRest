@@ -7,15 +7,22 @@ function cargoContenidoStreaming() {
       url: "js/trailerflix.json",
       dataType: "json",
       success: function(contenidoJSON) {
-         localStorage.contenidoJSON = JSON.stringify(contenidoJSON)
-         $.each(contenidoJSON, function(i) {
-            $("#contenido").append(buildCard(contenidoJSON[i]))
-         })
+         guardoEnLS(contenidoJSON)
+         armoVistaFull(contenidoJSON)
       },
       error: function() {
          $("#contenido").html(errorJSON())
       } 
    })
+}
+
+function armoVistaFull(c) {
+   for (const elemento of c)
+      $("#contenido").append(buildCard(elemento))
+}
+
+function guardoEnLS(c) {
+   localStorage.contenidoJSON = JSON.stringify(c)
 }
 
 function buildCard(ps) {
@@ -125,7 +132,11 @@ function agrupoPorGenero(gen, data) {
 }
 
 function muestroGeneros() {
-   contenidoJSON = JSON.parse(localStorage.contenidoJSON)
+   if (localStorage.contenidoJSON != undefined) {
+      contenidoJSON = JSON.parse(localStorage.contenidoJSON)
+   } else {
+      cargoContenidoStreaming()
+   }
    agrupoPorGenero(gen, contenidoJSON)
 }
 

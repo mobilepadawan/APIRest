@@ -5,36 +5,39 @@ let informacionDeContenido = ""
 $(document).ready(function() {
    if (localStorage.contenido != undefined) {
       informacionDeContenido = JSON.parse(localStorage.contenido)
-      HTMLTable = `<div class="row center">
+      let SerieOpelicula = ""
+      SerieOpelicula = `<td class="yellow-text left">DURACIÓN</td><td>${informacionDeContenido.duracion}</td>`
+      if (informacionDeContenido.categoria == "Serie")
+         SerieOpelicula = `<td class="yellow-text left">TEMPORADAS</td><td>${informacionDeContenido.temporadas}</td>`
+     HTMLTable = `<div class="row center">
                      <div class="col s12 m5 l4 center-align">
-                        <img src="${informacionDeContenido.poster}" width="200px">
+                        <img src="${informacionDeContenido.poster}" width="90%">
                      </div>
                      <div class="col s12 m7 l8">
                      <table>
                         <tbody class="white-text">
                            <tr>
-                           <td class="yellow-text">TÍTULO</td>
-                           <td><h5>${informacionDeContenido.titulo}</h5></td>
+                           <td class="yellow-text left">TÍTULO</td>
+                           <td><strong>${informacionDeContenido.titulo}</strong></td>
                            </tr>
                            <tr>
-                           <td class="yellow-text">CATEGORÍA</td>
+                           <td class="yellow-text left">CATEGORÍA</td>
                            <td>${informacionDeContenido.categoria}</td>
                            </tr>
                            <tr>
-                           <td class="yellow-text">GÉNERO</td>
+                           <td class="yellow-text left">GÉNERO</td>
                            <td>${informacionDeContenido.genero}</td>
                            </tr>
                            <tr>
-                           <td class="yellow-text">RESUMEN</td>
+                           <td class="yellow-text left">RESUMEN</td>
                            <td>${informacionDeContenido.resumen}</td>
                            </tr>
                            <tr>
-                           <td class="yellow-text">TEMPORADAS</td>
-                           <td>${informacionDeContenido.temporadas}</td>
+                           ${SerieOpelicula}
                            </tr>
                            <tr>
-                           <td class="yellow-text">REPARTO</td>
-                           <td><h6>${informacionDeContenido.reparto}</h6></td>
+                           <td class="yellow-text left">REPARTO</td>
+                           <td>${informacionDeContenido.reparto}</td>
                            </tr>
                         </tbody>
                      </table>
