@@ -683,6 +683,20 @@
       "temporadas": "9",
       "duracion": "N/A",
       "reparto": "Rainn Wilson, Steve Carell, Jenna Fischer, John Krasinski, B.J. Novak, Kate Flannery, Brian Baumgartner, Leslie David Baker, Mindy Kaling, Angela Kinsey",
-      "trailer": "https://www.youtube.com/embed/YDGw1MTEe9k"
+      "trailer": "https://www.youtube.com/embed/LHOtME2DL4g"
+   },
+   {
+      "id": 51,
+      "poster": "./posters/51.jpg",
+      "titulo": "The Good Doctor",
+      "categoria": "Serie",
+      "gen": "Familia",
+      "genero": "Drama, Familia",
+      "busqueda": "The Good Doctor, El buen Doctor ",
+      "resumen": "Un cirujano joven y autista que padece el síndrome del sabio empieza a trabajar en un hospital prestigioso. Allá tendrá que vencer el escepticismo con el que sus colegas lo reciben.",
+      "temporadas": "4",
+      "duracion": "N/A",
+      "reparto": "Freddie Highmore, Antonia Thomas, Hill Harper, Richard Schiff, Christina Chang, Paige Spara, Fiona Gubelmann, Will Yun Lee, Nicholas Gonzalez",
+      "trailer": "https://www.youtube.com/embed/fYlZDTru55g"
    }
 ]
