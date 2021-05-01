@@ -24,7 +24,7 @@ function buildCard(ps) {
        if (ps.categoria == "Serie")
            SerieOpelicula = `<p class="yellow-text">TEMPORADAS: <span class="white-text">${ps.temporadas}</span></p>`
        HTMLCard += `<div class="col s12 m6 l3">
-                      <div class="card z-depth-2">
+                      <div class="card z-depth-2 max-wide">
                          <div class="card-image">
                             <img src="${ps.poster}" alt="${ps.titulo}" title="${ps.titulo}" id="trailerflix-"${ps.id} max-width="100px">
                             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"  onclick="verDetalle(${ps.id})">search</i></a>
