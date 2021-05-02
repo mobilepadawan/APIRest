@@ -6,9 +6,8 @@ function cargoContenidoStreaming() {
    $.ajax({
       url: "js/trailerflix.json",
       dataType: "json",
-      success: function(contenidoJSON) {
-         guardoEnLS(contenidoJSON)
-         armoVistaFull(contenidoJSON)
+      success: function(data) {
+         guardoEnLS(data)
       },
       error: function() {
          $("#contenido").html(errorJSON())
@@ -17,6 +16,7 @@ function cargoContenidoStreaming() {
 }
 
 function armoVistaFull(c) {
+   $("#contenido").html("")
    for (const elemento of c)
       $("#contenido").append(buildCard(elemento))
 }
@@ -61,7 +61,6 @@ function errorJSON() {
 
 setTimeout(() => {
    muestroGeneros()
-   //cargoContenidoStreaming()
    $('#contenido').fadeIn("fast", function() {
       $('#visualizacion').fadeIn(200)
       $('#cargando').fadeOut(200)
@@ -131,18 +130,29 @@ function agrupoPorGenero(gen, data) {
          }
 }
 
+function muestroTodo(c) {
+   armoVistaFull(c)
+}
+
+async function recuperoContenido() {
+   contenidoJSON = JSON.parse(localStorage.contenidoJSON)
+}
+
+function recargoContenido() {
+   cargoContenidoStreaming()
+}
+
 function muestroGeneros() {
-   if (localStorage.contenidoJSON != undefined) {
-      contenidoJSON = JSON.parse(localStorage.contenidoJSON)
-   } else {
+   if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "") {
       cargoContenidoStreaming()
    }
+   recuperoContenido()
    agrupoPorGenero(gen, contenidoJSON)
 }
 
 $("#btnTodos").click(()=> {
-   contenidoJSON = []
-   cargoContenidoStreaming()
+   recuperoContenido()
+   muestroTodo(contenidoJSON)
 })
 
 $("#btnCategorias").click(()=> {
