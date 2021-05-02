@@ -65,7 +65,7 @@ setTimeout(() => {
       $('#visualizacion').fadeIn(200)
       $('#cargando').fadeOut(200)
    })
-}, 2000)
+}, 1000)
 
 function verDetalle(i) {
    if (contenidoJSON.length == 0)
@@ -157,4 +157,9 @@ $("#btnTodos").click(()=> {
 
 $("#btnCategorias").click(()=> {
    muestroGeneros()
+})
+
+$("#btnRecargar").click(()=> {
+   recargoContenido()
+   location.reload()
 })
