@@ -30,6 +30,7 @@ As seen in the common video streaming platforms, but limited to trailer's watchi
 All the trailers available are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
 
 You can access by here to know the last [Video of TRAILERFLIX working on the web, tablet and smartphone screens](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/trailerflix.mp4)
+![Traileflix Animation](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/screenshots/trailerflix.gif?raw=true)
 
 - - - -
 ## TRAILERFLIX 2021 (update)
