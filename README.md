@@ -31,8 +31,6 @@ All the trailers available are dinamically linked from Youtube (_most of them ar
 
 You can access by here to know the last [Video of TRAILERFLIX working on the web, tablet and smartphone screens](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/trailerflix.mp4)
 
-![Traileflix Animation](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/trailerflix.gif)
-
 - - - -
 ## TRAILERFLIX 2021 (update)
 > This version includes an improvement into the JSON file. A field 'busqueda' was added to get a better and unique searching field. I also added an associated searching function(). It works fine, since the first  shoot! <3
