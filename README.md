@@ -29,6 +29,8 @@ As seen in the common video streaming platforms, but limited to trailer's watchi
 
 All the trailers available are dinamically linked from Youtube (_most of them are coming from the official YT channels_).
 
+You can access by here to a video to show the improvement of this Streaming App: 
+[Video of TRAILERFLIX working on the web, tablet and smartphone screens](https://github.com/mobilepadawan/APIRest/blob/master/Readme.md%23images/trailerflix.mp4)
 
 - - - -
 ## TRAILERFLIX 2021 (update)
@@ -49,6 +51,9 @@ I also added __JQuery 3.5.1__ for basic animations on the HTML documents and __A
 ### DB for MOVIES & SERIES
 I am taking the information of movies and series from a local JSON file. The cover images were taken from the Internet. The image sizing was normalized by me, and every block of text information on the JSON file was written for me. Some things are invented. Other things are real and maybe, a couple of them, were taken from Wikipedia, IMDB or a similar website.
 
+## Update 2021-05-05 (cathegories button)
+I added to the top-main-screen the possibility to view the content as a **General View** or through **Cathegories**. For this last option, I made into the code a list with the most important cathegories for movies and series, saved into an array. By pressing the Cathegories button, the code iterate over every element on this list, apply a filter() with the list element and show the result on screen building the HTML Card element in every iteration.
+
 ## Update 2021-04-20 (searching bar)
 In the added searching bar and its code logic, I'm giving to the user the possibility to search any movie or series typing any parameter. The topics included at the 'busqueda' field are:
 - Title
@@ -62,7 +67,9 @@ The main idea for the searching function was create this topic bar with multiple
 You have some screenshots to the end of the section.
 
 ### Next updates
-I'm thinking to apply a loading structure sliced the content into some cathegories or maybe I'll create a navigation bar with predefined cathegories to filter. I don't know, I don't have a date or any urgency for that. We'll see.
+[X] ~I'm thinking to apply a loading structure sliced the content into some cathegories or maybe I'll create a navigation bar with predefined cathegories to filter. I don't know, I don't have a date or any urgency for that. We'll see.~
+[ ] The next steps is to apply a menu or similar feature listing the Cathegories for enabling to the User th pick the list to see the content.
+[ ] I also should improve a little bit more every Poster Picture to get a similar size between all of them. This way prevent the Card show with a lack of blank space between differents content.
 
 - - - -
 
