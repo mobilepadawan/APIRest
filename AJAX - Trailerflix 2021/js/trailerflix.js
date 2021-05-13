@@ -149,9 +149,7 @@ $("#btnTodos").click(()=> {
    muestroTodo(contenidoJSON)
 })
 
-$("#btnCategorias").click(()=> {
-   muestroGeneros()
-})
+$("#btnCategorias").click(()=> muestroGeneros())
 
 $("#btnRecargar").click(()=> {
    recargoContenido()
