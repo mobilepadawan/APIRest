@@ -61,8 +61,7 @@ function errorJSON() {
 
 setTimeout(() => {
    muestroGeneros()
-   $('#contenido').fadeIn("slow", ()=> $('#visualizacion').fadeIn(1000, ()=> $('#cargando').fadeOut(200)))
-}, 1000)
+   $('#contenido').fadeIn("slow", ()=> $('#visualizacion').fadeIn(1000, ()=> $('#cargando').fadeOut(200)))}, 1000)
 
 function verDetalle(i) {
    if (contenidoJSON.length == 0)
