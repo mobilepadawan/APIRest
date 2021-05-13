@@ -51,7 +51,7 @@ function errorJSON() {
        console.error("Ocurrió un error... :(")
        HTMLCard = `<div class="center white-text"> 
                       <br><br> 
-                      <h4>El contenido parece no estar disponible. Intente nuevamente en unos minutos.</h4> 
+                      <h4>El contenido no está disponible. Intente nuevamente en unos minutos.</h4> 
                       <br><br> 
                       <i class="large material-icons">sentiment_very_dissatisfied</i> 
                       <br><br> 
