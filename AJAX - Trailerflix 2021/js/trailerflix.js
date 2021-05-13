@@ -138,9 +138,8 @@ function recargoContenido() {
 }
 
 function muestroGeneros() {
-   if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "") {
+   if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "")
       cargoContenidoStreaming()
-   }
    recuperoContenido()
    agrupoPorGenero(gen, contenidoJSON)
 }
