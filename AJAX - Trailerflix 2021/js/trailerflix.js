@@ -84,9 +84,8 @@ function buscarToggle() {
 }
 
 $("#txtBuscar").on("keypress", function(e) {
-   if (e.keyCode === 13) {
+   if (e.keyCode === 13)
       buscarContenido($("#txtBuscar").val())
-   }
 })
 
 function tituloCateroria(g) {
