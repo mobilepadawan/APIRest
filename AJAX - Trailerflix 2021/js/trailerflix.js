@@ -51,7 +51,7 @@ function errorJSON() {
        console.error("Ocurrió un error... :(")
        HTMLCard = `<div class="center white-text"> 
                       <br><br> 
-                      <h4>El contenido no está disponible. Intente nuevamente en unos minutos.</h4> 
+                      <h2>El contenido no está disponible. Intente nuevamente en unos minutos.</h2> 
                       <br><br> 
                       <i class="large material-icons">sentiment_very_dissatisfied</i> 
                       <br><br> 
@@ -89,7 +89,7 @@ $("#txtBuscar").on("keypress", function(e) {
 function tituloCateroria(g) {
    return `<div class="col s12 m12 l12">
                <div class="center" width="100%">
-                   <h3 class="white-text vertical-spaces">${g}</h3>
+                   <h2 class="white-text vertical-spaces">${g}</h2>
                </div>
            </div>`
 }
