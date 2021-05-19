@@ -115,7 +115,7 @@ function buscarContenido(param) {
 
 function agrupoPorGenero(gen, data) {   
    $("#contenido").html("")
-   for (const g of gen) {
+   for (const g of GEN) {
          const res = data.filter(r => r.gen.includes(g))
                $("#contenido").append(tituloCateroria(g))
                for (const r of res)
