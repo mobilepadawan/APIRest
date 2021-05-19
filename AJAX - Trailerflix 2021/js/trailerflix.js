@@ -70,9 +70,7 @@ function verDetalle(i) {
       if (detalleJSON != undefined) {
          localStorage.setItem("contenido", JSON.stringify(detalleJSON))
          location.href = "detail.html"
-         console.log(detalleJSON)
-      } else {
-         console.error("No se encontró el elemento: " + i)
+      } else { //No se encontró el elemento: ${i}
          M.toast({html: "Contenido temporalmente no disponible.", classes: "red darken-3 white-text"})
       }
 }
