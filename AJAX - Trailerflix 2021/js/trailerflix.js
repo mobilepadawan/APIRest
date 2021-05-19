@@ -139,7 +139,7 @@ function muestroGeneros() {
    if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "")
       cargoContenidoStreaming()
    recuperoContenido()
-   agrupoPorGenero(gen, contenidoJSON)
+   agrupoPorGenero(GEN, contenidoJSON)
 }
 
 $("#btnTodos").click(()=> {
