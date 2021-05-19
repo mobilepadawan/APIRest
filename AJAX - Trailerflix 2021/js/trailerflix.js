@@ -35,7 +35,7 @@ function buildCard(ps) {
                       <div class="card z-depth-2 max-wide">
                          <div class="card-image">
                             <img loading="lazy" src="${ps.poster}" alt="${ps.titulo}" title="${ps.titulo}" id="trailerflix-"${ps.id} max-width="100px">
-                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"  onclick="verDetalle(${ps.id})">search</i></a>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red darken-2"><i class="material-icons"  onclick="verDetalle(${ps.id})">search</i></a>
                          </div>
                          <div class="card-content black">
                             <p class="yellow-text">GÉNERO: <span class="white-text">${ps.gen}</span></p>
