@@ -1,5 +1,5 @@
 let contenidoJSON = []
-const gen = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
+const GEN = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
 
 function cargoContenidoStreaming() {
    $("#contenido").html("")
