@@ -34,7 +34,7 @@ function buildCard(ps) {
        HTMLCard += `<div class="col s12 m6 l3">
                       <div class="card z-depth-2 max-wide">
                          <div class="card-image">
-                            <img loading="lazy" src="${ps.poster}" alt="${ps.titulo}" title="${ps.titulo}" id="trailerflix-"${ps.id}" width="440">
+                            <img loading="lazy" src="${ps.poster}" alt="${ps.titulo}" title="${ps.titulo}" id="trailerflix-${ps.id}" width="440">
                             <a class="btn-floating halfway-fab waves-effect waves-light red darken-2"><i class="material-icons"  onclick="verDetalle(${ps.id})">search</i></a>
                          </div>
                          <div class="card-content black">

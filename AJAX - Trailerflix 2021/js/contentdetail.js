@@ -11,7 +11,7 @@ $(document).ready(function() {
          SerieOpelicula = `<td class="yellow-text left">TEMPORADAS</td><td>${informacionDeContenido.temporadas}</td>`
      HTMLTable = `<div class="row center">
                      <div class="col s12 m5 l4 center-align">
-                        <img src="${informacionDeContenido.poster}" width="100%">
+                        <img loading="lazy" src="${informacionDeContenido.poster}" width="100%"  alt="${informacionDeContenido.titulo}" title="${informacionDeContenido.titulo}" id="trailerflix-${informacionDeContenido.id}">
                      </div>
                      <div class="col s12 m7 l8">
                      <table>
