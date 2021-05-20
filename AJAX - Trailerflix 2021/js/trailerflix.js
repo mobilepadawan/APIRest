@@ -1,5 +1,5 @@
 let contenidoJSON = []
-const GEN = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Hechos verídicos", "Suspenso", "Terror", ]
+const GEN = ["Acción", "Aventura", "Ciencia Ficción", "Comedia", "Drama", "Familia", "Fantasía", "Suceso Real", "Suspenso", "Terror", ]
 
 function cargoContenidoStreaming() {
    $("#contenido").html("")
@@ -38,7 +38,7 @@ function buildCard(ps) {
                             <a class="btn-floating halfway-fab waves-effect waves-light red darken-2"><i class="material-icons"  onclick="verDetalle(${ps.id})">search</i></a>
                          </div>
                          <div class="card-content black">
-                            <p class="yellow-text">GÉNERO: <span class="white-text">${ps.gen}</span></p>
+                            <p class="yellow-text ">GÉNERO: <span class="white-text">${ps.gen}</span></p>
                             ${SerieOpelicula}
                          </div>
                       </div>
