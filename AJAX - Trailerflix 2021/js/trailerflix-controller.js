@@ -1,4 +1,4 @@
-function cargoContenidoStreaming() {
+function recuperoContenidoStreaming() {
    $("#contenido").html("")
    $.ajax({
       url: URL_CONTENIDO,
@@ -23,6 +23,7 @@ async function guardoEnLS(c) {
 }
 
 setTimeout(() => {
+
    muestroGeneros()
    $('#contenido').fadeIn("slow", ()=> $('#visualizacion').fadeIn(1000, ()=> $('#cargando').fadeOut(200)))}, 1000)
 
@@ -95,13 +96,13 @@ async function recuperoContenido() {
 }
 
 function recargoContenido() {
-   cargoContenidoStreaming()
+   recuperoContenidoStreaming()
 }
 
 function muestroGeneros() {
    debugger
    if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "")
-      cargoContenidoStreaming()
+       recuperoContenidoStreaming()
    recuperoContenido()
    agrupoPorGenero(GEN, contenidoJSON)
 }
