@@ -4,8 +4,9 @@ function recuperoContenidoStreaming() {
       url: URL_CONTENIDO,
       dataType: "json",
       success: function(data) {
-         guardoEnLS(data)
          contenidoJSON = data
+         muestroGeneros()
+         guardoEnLS(data)
       },
       error: function() {
          $("#contenido").html(errorJSON())
@@ -19,9 +20,8 @@ function armoVistaFull(c) {
       $("#contenido").append(buildCard(elemento))
 }
 
-async function guardoEnLS(c) {
+function guardoEnLS(c) {
    localStorage.contenidoJSON = JSON.stringify(c)
-   debugger
 }
 
 setTimeout(() => {
@@ -102,7 +102,6 @@ function recargoContenido() {
 }
 
 function muestroGeneros() {
-      recuperoContenidoStreaming()
       agrupoPorGenero(GEN, contenidoJSON)
 }
 
