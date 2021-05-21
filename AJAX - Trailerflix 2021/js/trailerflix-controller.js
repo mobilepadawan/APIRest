@@ -1,3 +1,4 @@
+debugger
 function recuperoContenidoStreaming() {
    $("#contenido").html("")
    $.ajax({
@@ -25,8 +26,7 @@ function guardoEnLS(c) {
 }
 
 setTimeout(() => {
-
-   muestroGeneros()
+   recuperoContenidoStreaming()
    $('#contenido').fadeIn("slow", ()=> $('#visualizacion').fadeIn(1000, ()=> $('#cargando').fadeOut(200)))}, 1000)
 
 function verDetalle(i) {
