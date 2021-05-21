@@ -5,6 +5,7 @@ function recuperoContenidoStreaming() {
       dataType: "json",
       success: function(data) {
          guardoEnLS(data)
+         contenidoJSON = data
       },
       error: function() {
          $("#contenido").html(errorJSON())
@@ -20,6 +21,7 @@ function armoVistaFull(c) {
 
 async function guardoEnLS(c) {
    localStorage.contenidoJSON = JSON.stringify(c)
+   debugger
 }
 
 setTimeout(() => {
@@ -91,8 +93,8 @@ function muestroTodo(c) {
    armoVistaFull(c)
 }
 
-async function recuperoContenido() {
-   contenidoJSON = JSON.parse(localStorage.contenidoJSON)
+function recuperoContenido() {
+      recargoContenido()
 }
 
 function recargoContenido() {
@@ -100,11 +102,8 @@ function recargoContenido() {
 }
 
 function muestroGeneros() {
-   debugger
-   if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "")
-       recuperoContenidoStreaming()
-   recuperoContenido()
-   agrupoPorGenero(GEN, contenidoJSON)
+      recuperoContenidoStreaming()
+      agrupoPorGenero(GEN, contenidoJSON)
 }
 
 $("#btnTodos").click(()=> {
