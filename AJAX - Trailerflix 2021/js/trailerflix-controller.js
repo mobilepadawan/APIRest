@@ -106,7 +106,6 @@ function muestroGeneros() {
 }
 
 $("#btnTodos").click(()=> {
-   recuperoContenido()
    muestroTodo(contenidoJSON)
 })
 
