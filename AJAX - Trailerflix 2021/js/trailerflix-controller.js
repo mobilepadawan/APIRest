@@ -4,7 +4,7 @@ function cargoContenidoStreaming() {
       url: URL_CONTENIDO,
       dataType: "json",
       success: function(data) {
-         guardoEnLS(data)
+         const r = await guardoEnLS(data)
       },
       error: function() {
          $("#contenido").html(errorJSON())
@@ -18,7 +18,7 @@ function armoVistaFull(c) {
       $("#contenido").append(buildCard(elemento))
 }
 
-function guardoEnLS(c) {
+async function guardoEnLS(c) {
    localStorage.contenidoJSON = JSON.stringify(c)
 }
 
