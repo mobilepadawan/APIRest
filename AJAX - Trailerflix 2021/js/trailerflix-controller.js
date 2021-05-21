@@ -99,6 +99,7 @@ function recargoContenido() {
 }
 
 function muestroGeneros() {
+   debugger
    if (localStorage.contenidoJSON == undefined || localStorage.contenidoJSON == "")
       cargoContenidoStreaming()
    recuperoContenido()
