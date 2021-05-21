@@ -4,7 +4,7 @@ function recuperoContenidoStreaming() {
       url: URL_CONTENIDO,
       dataType: "json",
       success: function(data) {
-         const r = await guardoEnLS(data)
+         guardoEnLS(data)
       },
       error: function() {
          $("#contenido").html(errorJSON())
