@@ -1,4 +1,3 @@
-debugger
 function recuperoContenidoStreaming() {
    $("#contenido").html("")
    $.ajax({
@@ -25,9 +24,12 @@ function guardoEnLS(c) {
    localStorage.contenidoJSON = JSON.stringify(c)
 }
 
+// recuperoContenidoStreaming()
+// $('#contenido').fadeIn("fast", ()=> $('#visualizacion').fadeIn(20, ()=> $('#cargando').fadeOut(10)))
+
 setTimeout(() => {
    recuperoContenidoStreaming()
-   $('#contenido').fadeIn("slow", ()=> $('#visualizacion').fadeIn(1000, ()=> $('#cargando').fadeOut(200)))}, 1000)
+   $('#contenido').fadeIn("fast", ()=> $('#visualizacion').fadeIn(200, ()=> $('#cargando').fadeOut(100)))}, 50)
 
 function verDetalle(i) {
    if (contenidoJSON.length == 0)
