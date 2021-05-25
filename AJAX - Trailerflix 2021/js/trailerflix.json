@@ -1090,5 +1090,19 @@
       "duracion": "123 minutos",
       "reparto": "Julianne Hough, Diego Boneta, Tom Cruise, Alec Baldwin, Russell Brand, Malin Åkerman, Paul Giamatti, Bryan Cranston, Catherine Zeta-Jones, Mary J. Blige, Erica Frene, Shane Hartline, James Martin Kelly, Will Forte, Eli Roth",
       "trailer": "https://www.youtube.com/embed/mP0VHJYFOAU"
+   },
+   {
+      "id": 81,
+      "poster": "./posters/81.jpg",
+      "titulo": "Super 8",
+      "categoria": "Película",
+      "gen": "Ciencia Ficción",
+      "genero": "Suspenso, Misterio, Sci-Fi",
+      "busqueda": "Super 8, Suspenso, Ciencia ficción, Misterio, Sci-Fi, Joel Courtney, Elle Fanning, Riley Griffiths, Kyle Chandler, Noah Emmerich, AJ Michalka, Ryan Lee, Ron Eldard, Gabriel Basso",
+      "resumen": "Año 1979, en un pequeño pueblo de Ohio. Joe Lamb (Joel Courtney) es un muchacho que ha perdido a su madre en un accidente y que vive con su padre policía (Kyle Chandler). Comenzado el verano, y mientras rueda una película de zombis en Super 8 con sus amigos -y sobre todo con la bella Alice Dainard (Elle Fanning)-, Joe observa cómo una camioneta se estrella contra un tren de mercancías, provocando su descarrilamiento y un terrible accidente. A partir de ese momento cosas extrañas e inexplicables comienzan a suceder en el pueblo.",
+      "temporadas": "N/A",
+      "duracion": "82 minutos",
+      "reparto": "Joel Courtney, Elle Fanning, Riley Griffiths, Kyle Chandler, Noah Emmerich, AJ Michalka, Ryan Lee, Ron Eldard, Gabriel Basso",
+      "trailer": "https://www.youtube.com/embed/QtZ6BQRDk4g"
    }
 ]
