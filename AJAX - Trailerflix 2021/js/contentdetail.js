@@ -5,6 +5,7 @@ let informacionDeContenido = ""
 $(document).ready(function() {
    if (localStorage.contenido != undefined) {
       informacionDeContenido = JSON.parse(localStorage.contenido)
+      document.title = `${informacionDeContenido.titulo} - TRAILERFLIX`
       let SerieOpelicula = ""
       SerieOpelicula = `<td class="yellow-text left">DURACIÓN</td><td>${informacionDeContenido.duracion}</td>`
       if (informacionDeContenido.categoria == "Serie")
