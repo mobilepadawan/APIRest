@@ -1272,5 +1272,33 @@
       "duracion": "102 minutos",
       "reparto": "Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard, Catherine O'Hara, Roberts Blossom, Devin Ratray, Michael C. Maronna, Hillary Wolf",
       "trailer": "https://www.youtube.com/embed/jEDaVHmw7r4"
+   },
+   {
+      "id": 94,
+      "poster": "./posters/94.jpg",
+      "titulo": "Aprendices fuera de línea",
+      "categoria": "Película",
+      "gen": "Comedia",
+      "genero": "Familia, Comedia",
+      "busqueda": "Aprendices fuera de línea, aprendices fuera de línea, los becarios, Los Becarios, The internships, Internships, Familia, Comedia, Owen Wilson, Vince Vaughn, Will Ferrell, Rose Byrne, Aasif Mandvi, Max Minghella, Josh Brener, Dylan O'Brien, Tiya Sircar, Tobit Raphael, Josh Gad, Jessica Szohr, Rob Riggle, Eric André, Harvey Guillén, Gary Anthony Williams, Bruno Amato, B.J. Novak, Karen Ceesay, John Goodman",
+      "resumen": "Cuando dos cuarentones vendedores de relojes son despedidos de sus respectivos trabajos, convencidos ambos de que no se han adaptado a los cambios de las nuevas tecnologías, deciden empezar de nuevo y buscar trabajo en la empresa más exitosa de Internet: Google. Finalmente consiguen un contrato de prácticas como becarios. La locura comienza cuando se ven compitiendo para conseguir el puesto con jóvenes veinteañeros, mucho más listos y más familiarizados con el mundo digital que ellos.",
+      "temporadas": "N/A",
+      "duracion": "125 minutos",
+      "reparto": "Owen Wilson, Vince Vaughn, Will Ferrell, Rose Byrne, Aasif Mandvi, Max Minghella, Josh Brener, Dylan O'Brien, Tiya Sircar, Tobit Raphael, Josh Gad, Jessica Szohr, Rob Riggle, Eric André, Harvey Guillén, Gary Anthony Williams, Bruno Amato, B.J. Novak, Karen Ceesay, John Goodman",
+      "trailer": "https://www.youtube.com/embed/tn02SPT6ivM"
+   },
+   {
+      "id": 95,
+      "poster": "./posters/95.jpg",
+      "titulo": "Outsourced",
+      "categoria": "Serie",
+      "gen": "Comedia",
+      "genero": "Familia, Comedia",
+      "busqueda": "Outsourced, Tercerizado, Tercerizados, tercerizados, outsourced, outsource, tercerizado, Comedia, Familia, Rebecca Hazlewood, Sacha Dhawan, Diedrich Bader, Pippa Black, Parvesh Ceena, Thushari Jayasekera, Ben Rappaport, Guru Singh, Rizwan Manji, Anisha Nagarajan, Carla Gallo, Radhika Chaudhari, Nicholas Logan",
+      "resumen": "Ambientada en el continente estadounidense, una empresa norteamericana que busca reducir los gastos, asciende a su mejor empleado del Call Center, poniéndolo a cargo del mismo. La única condición para dicho empleado, es viajar a la India, lugar en el mundo donde tercerizan el servicio ode atención al cliente, para abaratar costos. Allí, en la Ciudad de Bombay, los nativos le explican la cultura indú a los nóveles norteamericanos, y viceversa. Tendrán que convivir cada uno de los empleados de estos diferentes países, con sus pares y/o jefes opuestos en cultura.",
+      "temporadas": "1",
+      "duracion": "N/A",
+      "reparto": "Rebecca Hazlewood, Sacha Dhawan, Diedrich Bader, Pippa Black, Parvesh Ceena, Thushari Jayasekera, Ben Rappaport, Guru Singh, Rizwan Manji, Anisha Nagarajan, Carla Gallo, Radhika Chaudhari, Nicholas Logan",
+      "trailer": "https://www.youtube.com/embed/_wR3LhFlgGo"
    }
 ]
