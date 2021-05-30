@@ -1300,5 +1300,47 @@
       "duracion": "N/A",
       "reparto": "Rebecca Hazlewood, Sacha Dhawan, Diedrich Bader, Pippa Black, Parvesh Ceena, Thushari Jayasekera, Ben Rappaport, Guru Singh, Rizwan Manji, Anisha Nagarajan, Carla Gallo, Radhika Chaudhari, Nicholas Logan",
       "trailer": "https://www.youtube.com/embed/_wR3LhFlgGo"
+   },
+   {
+      "id": 96,
+      "poster": "./posters/96.jpg",
+      "titulo": "Miedo Profundo",
+      "categoria": "Película",
+      "gen": "Suspenso",
+      "genero": "Suspenso, Drama, Terror",
+      "busqueda": "Miedo Profundo, miedo profundo, the shallows, The Shallows, Suspenso, Drama, Infierno Azul, infierno azul, Terror, Blake Lively, Óscar Jaenada, Janelle Bailley, Chelsea Moody, Angelo Josue Lozano Corzo, José Manuel Trujillo Salas, Brett Cullen, Sedona Legge, Pablo Calva",
+      "resumen": "Nancy, una estudiante de medicina apasionada del surfing, es una joven que trata de superar la pérdida de su madre. Un día, practicando surf en una solitaria playa mexicana se queda atrapada en un islote a sólo cien metros de la costa. El problema está en que un enorme tiburón blanco se interpone entre ella y la otra orilla.",
+      "temporadas": "N/A",
+      "duracion": "86 minutos",
+      "reparto": "Blake Lively, Óscar Jaenada, Janelle Bailley, Chelsea Moody, Angelo Josue Lozano Corzo, José Manuel Trujillo Salas, Brett Cullen, Sedona Legge, Pablo Calva",
+      "trailer": "https://www.youtube.com/embed/EgdxIlSuB70"
+   },
+   {
+      "id": 97,
+      "poster": "./posters/97.jpg",
+      "titulo": "Everest",
+      "categoria": "Película",
+      "gen": "Suceso Real",
+      "genero": "Suceso Real, Drama, Suspenso",
+      "busqueda": "Everest, everest, monte everest, Monte Everest, Suceso Real, Suspenso, Drama, Jason Clarke, Josh Brolin, Jake Gyllenhaal, Jogn Hawkes, Sam Worthington, Emily Watson, Martin Henderson, Michael Kelly, Keira Knightley, Robin Wright, Thomas M. Wright, Clive StandenNaoko Mori, Mia Goth, Elizabeth Debicki, Tom Goodman-Hill, Vanessa Kirby",
+      "resumen": "Inspirada en los hechos que tuvieron lugar durante un intento por alcanzar el pico más alto del mundo, narra las peripecias de dos expediciones que se enfrentan a la peor tormenta de nieve conocida. En un desesperado esfuerzo por sobrevivir, el temple de los alpinistas se ve puesto a prueba al tener que enfrentarse a la furia desatada de los elementos y a obstáculos casi insuperables.",
+      "temporadas": "N/A",
+      "duracion": "121 minutos",
+      "reparto": "Jason Clarke, Josh Brolin, Jake Gyllenhaal, Jogn Hawkes, Sam Worthington, Emily Watson, Martin Henderson, Michael Kelly, Keira Knightley, Robin Wright, Thomas M. Wright, Clive StandenNaoko Mori, Mia Goth, Elizabeth Debicki, Tom Goodman-Hill, Vanessa Kirby",
+      "trailer": "https://www.youtube.com/embed/5ZQVpPiOji0"
+   },
+   {
+      "id": 98,
+      "poster": "./posters/98.jpg",
+      "titulo": "La Familia Addams",
+      "categoria": "Película",
+      "gen": "Familia",
+      "genero": "Familia, Comedia, Fantasía",
+      "busqueda": "La Familia Addams, la familia addams, adams, Los locos Addams, Los locos Adams, The Addams Family, the addams family, Familia, Comedia, Fantasía, ",
+      "resumen": "El delirante y gótico estilo de vida de la peculiar familia Addams se ve amenazado peligrosamente cuando el codicioso dúo que forman madre e hijo, con la ayuda de un abogado sin ningún escrúpulos, conspiran para hacerse con la fortuna familiar... (No se pierdan las locutras de Gomez, Morticia, Tío Lucas, Merlina, El tío Cosas, Dedos y Largo)",
+      "temporadas": "N/A",
+      "duracion": "101 minutos",
+      "reparto": "Raúl Juliá, Anjelica Huston, Christopher Lloyd, Christina Ricci, Carel Struycken, Dan Hedaya, Jimmy Workman, Elizabeth Wilson, Dana Ivey",
+      "trailer": "https://www.youtube.com/embed/5ZQVpPiOji0"
    }
 ]
