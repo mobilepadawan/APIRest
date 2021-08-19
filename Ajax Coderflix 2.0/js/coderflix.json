@@ -1,7 +1,7 @@
 [
     {
         "id": 3,
-        "poster": "https://ferpro.online/ejemplos/coderflix/posters/3.jpg",
+        "poster": "/posters/3.jpg",
         "titulo": "The Mandalorian",
         "categoria": "Serie",
         "genero": "Sci-Fi, Fantasía, Suspenso",
@@ -12,7 +12,7 @@
     },
     {
         "id": 4,
-        "poster": "https://ferpro.online/ejemplos/coderflix/posters/4.jpg",
+        "poster": "/posters/4.jpg",
         "titulo": "The Umbrella Academy",
         "categoria": "Serie",
         "genero": "Sci-Fi, Fantasía, Drama",
